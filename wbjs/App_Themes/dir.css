@@ -1,0 +1,83 @@
+/* 页面属性 */
+body {margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; font-family: "Tahoma"; color:#565656;background-image: url();background-color: #;}
+
+/* 滚动条属性 */
+
+
+
+/* 浏览器默认链接属性 */
+A:link {text-decoration: none; color:#565656}
+A:visited {text-decoration: none; color: #565656}
+A:hover {text-decoration: none; text-decoration: underline; color: #ff6600}
+TR { FONT-SIZE: 9pt; FONT-FAMILY: "??";}
+TD { FONT-SIZE: 9pt; line-height: 18px; FONT-FAMILY: ??;}
+
+
+/* 浏览器其他链接属性 */
+A.lj01:link {font-size: 9pt; text-decoration: none; color:#565656}
+A.lj01:visited {font-size: 9pt; text-decoration: none; color:#565656}
+A.lj01:hover {font-size: 9pt; text-decoration: underline; color:#FF6600}
+
+A.lj02:link {font-size: 9pt;text-decoration: none; color:#287678}
+A.lj02:visited {font-size: 9pt;text-decoration: none; color:#287678}
+A.lj02:hover {font-size: 9pt;text-decoration: underline; color:#ff6600}
+
+A.lj03:link {text-decoration: none; font-weight: bold; color:#464646}
+A.lj03:visited {text-decoration: none; font-weight: bold; color: #464646}
+A.lj03:hover {text-decoration: none; font-weight: bold; color: #ff6600}
+
+A.lj04:link {text-decoration: none;color:#7B7B7B}
+A.lj04:visited {text-decoration: none;color: #7B7B7B}
+A.lj04:hover {text-decoration: none; color: #ff6600}
+
+
+/* 按钮属性 */
+.button01 {BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 9pt; BACKGROUND: url(img/button_bg.gif) #ffffff fixed no-repeat left 50%; BORDER-LEFT: #999999 1px solid; CURSOR: hand; LINE-HEIGHT: 20px; BORDER-BOTTOM: #999999 1px solid; HEIGHT: 22px}
+.button02 {font-family: "??"; font-size: 9pt; height: 18px; border: 1px #000000 solid; background-color: #DEDEDE}
+
+/* 文本输入框属性 */
+.input { font-size: 9pt; background-color: #F5FAFC; border: #A4CCE5; border-style: solid;border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px;font-family:"Arial"}
+.input_dh {font-family: "Arial"; font-size: 9pt; height: 18px; border: 1px #CCCCCC solid; background-color: #FFFFFF}/* 单行填写框 */
+.input_dhxx {BORDER-RIGHT: #999999 1px dotted; BORDER-TOP: #999999 1px dotted; FONT-SIZE: 9pt; BORDER-LEFT: #999999 1px dotted; COLOR: #333333; BORDER-BOTTOM: #999999 1px dotted; FONT-FAMILY: ""}/* 单行虚线填写框 */
+.input_duoh {font-family: "Arial"; font-size: 9pt; border: 1px #333333 solid; background-color: #FFFFFF}/* 多行填写框 */
+.input_an {font-family: "??"; font-size: 9pt; height: 18px; border: 1px #000000 solid; background-color: #DEDEDE}* 按钮 */
+ 
+
+.blank01 {padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px}/* 表格上下左右边距设定 */
+
+
+/* 字体属性 */
+.wz_copyright {font-size: 9pt; font-family: "Tahoma";color: #000000}
+.top {FONT-SIZE: 11px; FLOAT: left; COLOR: #7ea9bf; LINE-HEIGHT: 23px; HEIGHT: 23px; TEXT-ALIGN: center}
+.wz01 {font-size: 9pt;  color: #565656}
+.wz02 {font-size: 9pt; color: #17589c}
+.wz03 {font-size: 9pt; font-weight: bold; color: #0e426e}
+.wz04 {font-size: 9pt; color: #0075a9}
+.wz05 {font-size: 9pt; font-weight: bold; color: #0075a9}
+
+
+.bt01 {font-family: "Arial";font-size: 15pt; font-weight: bold; color: #CB865B}
+.bt02 {font-family: "Arial";font-size: 12pt; font-weight: bold; color: #CB865B}
+.cpbt1 {font-size: 9pt; color: #990000}
+.cpbt2 {font-size: 9pt; color: #ff0000}
+.cpbt3 {font-size: 9pt; text-decoration: line-through; color: #ff0000}
+
+
+/* 表格边框属性 */
+.table-shang {BORDER-TOP: #C1C1C1 1px dotted}
+.table-xia {BORDER-BOTTOM: #cccccc 1px dotted}
+.table-zyx {BORDER-RIGHT: #51789B 1px solid; BORDER-LEFT: #51789B 1px solid;BORDER-BOTTOM: #51789B 1px solid;}
+.table-zs {BORDER-LEFT: #A0D9E7 1px solid;BORDER-TOP: #A0D9E7 1px solid;}
+
+/*div*/
+#Listdiv { margin-top:10px;  width:98%;  float:LEFT; text-align:left;}
+#Listdiv ul{ text-align:left;}
+#Listdiv li {padding: 2px 0 3px 5px; BORDER-BOTTOM: #cccccc 1px dotted; background-image:url("img/tb-05.gif") no-repeat ;}
+
+#picdiv1{padding : 1px 1px 1px 1px; border: 1px #ACACAC solid;}
+#picdiv{padding : 5px 5px 5px 5px; border: 1px #ACACAC solid;}
+
+
+/* 图片边框属性 */
+.pic {border-color:#959595;  border: 1px #E9FAE3 solid;}
+img {border:0px;} 

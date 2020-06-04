@@ -1,0 +1,666 @@
+﻿body {	margin-left: 1px;	margin-top: 0px;	margin-right: 2px;	margin-bottom: 5px;	font-size:12px;
+            border: 0px solid #eee;text-align: left;}
+.mainDIV{ width:100%;}
+.topDIV{	background-color: #aec5f7;	font-size: 12px;	line-height: 20px;	color: #ffffff;	text-decoration: none;}
+.contentDIC{line-height:200%;background-color: #0499f3; font-weight:bold;color:White;border-top: #aec5f7 1px solid;}
+.contentDIC a {text-decoration: none; FONT-WEIGHT: normal; COLOR:White;}
+.contentDIC a:link {COLOR:White;}
+.contentDIC a:visited {COLOR:White;}
+.contentDIC a:hover {COLOR:White; text-decoration:none;}
+
+.RunDIV{overflow:auto;overflow-x:hidden; height:447px;}
+.RunDIV ul { list-style:none;margin:0 0 0 10px;}
+.RunDIV ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.RunDIV ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.RunDIV ul li a:link {COLOR:Blue;}
+.RunDIV ul li a:visited {COLOR:Blue;}
+.RunDIV ul li a:hover {COLOR:Red; text-decoration:none;}
+.ibutton
+{
+	border:1px solid #666;
+	height:18px;
+	background-color:#efefef;
+	font:12px Arial;
+}
+
+.deskContentKG
+{
+	padding-left:10px;
+}
+.lblTitleTD
+{
+	line-height:200%;
+	background-color:#efefef;
+	text-align:left;
+	font-weight:bold;
+}
+
+
+.ToDoWorkText {COLOR:Blue; height:22px;}
+.ToDoWorkText a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.ToDoWorkText a:link {COLOR:Blue;}
+.ToDoWorkText a:visited {COLOR:Blue;}
+.ToDoWorkText a:hover {COLOR:Blue; text-decoration:none;}
+
+
+.divDBContent{overflow: auto; overflow-x: hidden; height: 447px; width:100%;}
+.divDBContent ul { list-style:none;margin:0 0 0 10px;}
+.divDBContent ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divDBContent ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divDBContent ul li a:link {COLOR:Blue;}
+.divDBContent ul li a:visited {COLOR:Blue;}
+.divDBContent ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.divFinanContent{overflow: auto; overflow-x: hidden; height: 447px; width:100%;}
+.divFinanContent ul { list-style:none;margin:0 0 0 10px;}
+.divFinanContent ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divFinanContent ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divFinanContent ul li a:link {COLOR:Blue;}
+.divFinanContent ul li a:visited {COLOR:Blue;}
+.divFinanContent ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.divFinanContents{overflow: auto; overflow-x: hidden; height: 145px; width:100%;}
+.divFinanContents ul { list-style:none;margin:0 0 0 10px;}
+.divFinanContents ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divFinanContents ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divFinanContents ul li a:link {COLOR:Blue;}
+.divFinanContents ul li a:visited {COLOR:Blue;}
+.divFinanContents ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+
+.divFinanContentsBig{overflow: auto; overflow-x: hidden; height: 303px; width:100%;}
+.divFinanContentsBig ul { list-style:none;margin:0 0 0 10px;}
+.divFinanContentsBig ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divFinanContentsBig ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divFinanContentsBig ul li a:link {COLOR:Blue;}
+.divFinanContentsBig ul li a:visited {COLOR:Blue;}
+.divFinanContentsBig ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.divFinanHelf{overflow: auto; overflow-x: hidden; height: 218px; width:100%;}
+.divFinanHelf ul { list-style:none;margin:0 0 0 10px;}
+.divFinanHelf ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divFinanHelf ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divFinanHelf ul li a:link {COLOR:Blue;}
+.divFinanHelf ul li a:visited {COLOR:Blue;}
+.divFinanHelf ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.managerDIV{overflow:scroll;overflow-x:hidden; height:255px;}
+.managerDIV ul { list-style:none;margin:0 0 0 10px;}
+.managerDIV ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.managerDIV ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.managerDIV ul li a:link {COLOR:Blue;}
+.managerDIV ul li a:visited {COLOR:Blue;}
+.managerDIV ul li a:hover {COLOR:Red; text-decoration:none;}
+
+.menubar_title {FONT-FAMILY: "Verdana", "Arial", "细明体", "sans-serif"; font-size:14px; font-weight:bold;}
+
+.menubar_function_text {
+	border-top:3px solid #000000; font-size:9pt;
+	FONT-FAMILY: "Arial"; position:relative; 
+	color:#808080; border-left-width:1; 
+	border-right-width:1;
+	 border-bottom-width:1;
+	  padding-top:3;
+	padding-left:10px;}
+	
+	
+.button_bak {
+	/*border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	BACKGROUND-IMAGE: url('images/button_On.gif'); 
+	BORDER-LEFT: medium none; 
+	WIDTH:60px; 
+	CURSOR: pointer; 
+	BORDER-BOTTOM: medium none; 
+	HEIGHT: 20px;
+	FONT-SIZE: 9pt; 
+	FONT-FAMILY: tahoma,宋体;
+	width:auto; height:24px; border: 1px solid #DFDFDF;background-image:url(../../Images/btnBg.gif);filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr=#dedede endColorStr=#ffffff, gradientType=0); cursor:hand;
+	*/
+	BORDER-RIGHT: #2C59AA 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #2C59AA 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5); BORDER-LEFT: #2C59AA 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #2C59AA 1px solid;
+	margin-left:5px;
+
+}
+
+.button_bak40 {
+	BORDER-RIGHT: medium none; 
+	BORDER-TOP: medium none; 
+	BACKGROUND-IMAGE: url(images/button_On40.jpg); 
+	BORDER-LEFT: medium none; 
+	WIDTH: 40px; 
+	CURSOR: pointer; 
+	BORDER-BOTTOM: medium none; 
+	HEIGHT: 20px;
+	FONT-SIZE: 9pt; 
+	FONT-FAMILY: tahoma,宋体;
+}
+
+
+.tabTextboxOK {
+	border: 1px solid #FE9BA2;
+	width:140px;
+}
+.tabTextboxLogin {
+	border: 0px solid #ffffff;
+	width:140px;
+}
+
+
+.datagrid-style
+{
+	height:20px;
+	border-color:#FFFFFF;
+	border-collapse:collapse;
+}
+.datagrid-styleffdab9
+{
+	height:20px;
+	border-color:#DDDDDD;
+	border-collapse:collapse;
+}
+.datagrid-styleNO
+{
+	height:20px;
+	border-collapse:collapse;
+}
+.datagrid-styleBlue
+{
+	color:Blue;
+	height:20px;
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+}
+.datagrid-stylecentter
+{
+	text-align:center;
+	height:20px;
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+}
+.datagrid-headerstyle
+{
+	height:22px;
+	background-color: #30a4b1;
+	color:Black;
+	BACKGROUND-IMAGE: url(/images/view_title_bg.jpg); /*login/tabtitlebg.gif*/
+	
+}
+.datagrid-headerstylec6e7ff
+{
+	height:22px;
+	background-color: #c6e7ff;
+	color:Black;
+}
+.datagrid-headerstylee9f2f7
+{
+	height:22px;
+	background-color: #e9f2f7;
+	color:Black;
+}
+.datagrid-headercolor
+{
+	border-color:#FFFFFF;
+	border-collapse:collapse;
+	color:White;
+}
+.datagrid-alternatingitemstyle
+{
+	background-color: #F5F7FD;
+}
+.datagrid-footerstyle
+{
+	background-color: #D8E0F1;
+}
+.datagrid-pagerstyle
+{
+	background-color: #D8E0F1;
+}
+
+
+.inputTable
+{
+	border-collapse:collapse;
+}
+.inputTable td
+{
+	height:30px;
+}
+
+
+.inputTableFlow
+{
+	border-collapse:collapse;
+}
+.inputTableFlow td
+{
+	height:25px;
+}
+
+
+.table_body {	
+FONT-SIZE: 9pt;
+BACKGROUND-COLOR: #CADEE8;
+height:30px;
+PADDING-LEFT: 5px;
+PADDING-RIGHT:5px;
+width:25%;
+font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; 
+}
+
+.bluelink 
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Blue;
+}
+.bluelink:link {
+	COLOR:Blue;
+}
+.bluelink:visited {
+	COLOR:Blue;
+}
+.bluelink:hover {
+	COLOR:Blue;
+	 text-decoration:none;
+}
+
+
+.bluelinkOperate
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Blue;
+	padding-left:5px;
+	padding-right:5px;
+	font-weight:bold;
+}
+.bluelinkOperate:link {
+	COLOR:Blue;
+}
+.bluelinkOperate:visited {
+	COLOR:Blue;
+}
+.bluelinkOperate:hover {
+	COLOR:Blue;
+	 text-decoration:none;
+}
+
+
+.pageTextBox {font-family: 新宋体, 新宋体-18030, 宋体-18030, 宋体; background-color: white; font-size: 11pt; height: 13px; border: 1px solid #ddd;}
+.pagebutton
+{
+    padding-right: 4px;	padding-left: 4px; FONT-WEIGHT: normal;	FONT-SIZE: 12px; padding-bottom: 2px; MARGIN: 1px 0px 0px; DISPLAY: inline;	COLOR: #000000;	LINE-height: 15px; padding-top: 2px; height: 22px; border: 1px outset #ddd;
+}
+
+
+
+.linkRed 
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Red;
+}
+.linkRed:link {
+	COLOR:Red;
+}
+.linkRed:visited {
+	COLOR:Red;
+}
+.linkRed:hover {
+	COLOR:Red;
+	 text-decoration:none;
+}
+
+
+.EnabledTextbox {
+	border: 1px solid #acbac4;
+	color:#aca899;
+	width:140px;
+}
+
+
+
+.InfoTextboxAll {
+	border: 1px solid #FE9BA2;
+	width:120px;
+}
+
+
+.dealLableNoWidth
+{
+	background-color: #cadee8;
+}
+.dealLable
+{
+	width:86px;
+	background-color: #cadee8;
+}
+.dealText
+{
+	width:173px;
+	background-color: #cadee8;
+}
+.dealTextNoWidth
+{
+	background-color: #cadee8;
+}
+	
+	
+.lblSmailTitleLeft
+{
+	height: 20px;
+	text-align:left;
+	width:114px;
+	font-weight:bold;
+	background-color:#ffffff;
+}
+
+
+.inputTableMenu
+{
+	border-collapse:collapse;
+}
+
+
+.rightTopMenu
+{
+ background-color: #ebebeb;
+ height:24px;
+  color:#666666;
+   border-bottom: #e3e3e3 1px solid;
+}
+
+.a_l_indent_s
+{
+	margin: 0cm 0cm 0pt 0pt;
+}
+
+.rightTopchilden
+{
+ width:120px;
+ height:24px;
+  color:#000000;
+   border-bottom: #eceaec 1px solid;
+}
+
+.contentMenu
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR: #666666;
+}
+.contentMenu:link {
+	COLOR: #666666;
+}
+.contentMenu:visited {
+	COLOR: #666666;
+}
+.contentMenu:hover {
+	COLOR:#ff7300;
+}
+
+
+
+.datagrid-styleSON
+{
+	height:25px;
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+}
+
+
+.datagrid-headerstyleSON
+{
+	height:22px;
+	background-color: #ebebeb;
+	color:#0a246a;
+}
+
+
+.datagrid-headercolorSON
+{
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+	color:#0a246a;
+}
+
+.p_25
+{
+	text-indent: 25px;
+margin: 5px 0px 5px 0px;	
+}
+.p_60
+{
+	text-indent: 60px;
+margin: 5px 0px 5px 0px;	
+}
+
+.p25h2
+{
+	text-indent: 25px;
+	margin: 2px 0px 2px 0px;	
+}
+
+
+
+.showOperte
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Red;
+}
+.showOperte:link {
+	COLOR: Red;
+}
+.showOperte:visited {
+	COLOR: Red;
+}
+.showOperte:hover {
+	COLOR:#ff7300;
+}
+
+.showMatName
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Blue;
+}
+.showMatName:link {
+	COLOR: Blue;
+}
+.showMatName:visited {
+	COLOR: Blue;
+}
+.showMatName:hover {
+	COLOR:#ff7300;
+}
+
+.sortLink
+{
+	FONT-WEIGHT: normal; COLOR:#ffffff;
+}
+.sortLink:link {
+	COLOR: #ffffff;
+}
+.sortLink:visited {
+	COLOR: #ffffff;
+}
+.sortLink:hover {
+	COLOR:#ffffff;
+}
+
+
+.FunctionTitle {
+	font-size:9pt;
+	FONT-FAMILY: "Arial"; position:relative; 
+	color:#808080; border-left-width:1; 
+	border-right-width:1;
+	border-bottom-width:1;
+	padding-left:5px;}
+	
+	
+.linkOperate
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Blue;
+}
+.linkOperate:link {
+	COLOR:Blue;
+}
+.linkOperate:visited {
+	COLOR:Blue;
+}
+.linkOperate:hover {
+	COLOR:Red;
+	 text-decoration:none;
+}
+
+.bodyDiv
+{
+	width:100%;
+}
+.bodyHr
+{
+	clear: both; height: 3px; color: Black;
+}
+
+.ShowDataDeatilNoRun
+{
+    overflow: auto;
+    overflow-y: hidden;
+    width:100%;
+   scrollbar-3dlight-color : #F5FBFF; 
+scrollbar-highlight-color : #A4C6E5; 
+scrollbar-face-color : #F5FBFF; 
+scrollbar-arrow-color : #A4C6E5; 
+scrollbar-shadow-color : #A4C6E5; 
+scrollbar-darkshadow-color : #F5FBFF; 
+scrollbar-base-color : #F5FBFF; 
+scrollbar-track-color : #F5FBFF;background-color: #e9f2f7;
+}
+.ShowDataDeatil
+{
+    overflow: auto;
+    overflow-y: hidden;
+    width:100%;/*
+   scrollbar-face-color:#A6DAFF;
+   scrollbar-arrow-color:#FEFEFC;
+   scrollbar-highlight-color:#FDFDFD;
+   scrollbar-3dlight-color:#E5E5E3;
+   scrollbar-shadow-color:#959794;
+   scrollbar-darkshadow-color:#E4E6E5;
+   scrollbar-track-color:#EEEEEE;*/
+   scrollbar-3dlight-color : #F5FBFF; 
+scrollbar-highlight-color : #A4C6E5; 
+scrollbar-face-color : #F5FBFF; 
+scrollbar-arrow-color : #A4C6E5; 
+scrollbar-shadow-color : #A4C6E5; 
+scrollbar-darkshadow-color : #F5FBFF; 
+scrollbar-base-color : #F5FBFF; 
+scrollbar-track-color : #F5FBFF;
+    padding-bottom:12px;
+}
+.ShowDataDeatilAll
+{
+    overflow: auto;
+    width:100%;
+    height:450px;
+    scrollbar-face-color: #d9d9d9;
+    scrollbar-highlight-color: #e7e7e7;
+    scrollbar-shadow-color: #e7e7e7;
+    scrollbar-3dlight-color: #d9d9d9;
+    scrollbar-arrow-color: #0080ff;
+    scrollbar-darkshadow-color: #e7e7e7;
+}
+.workFlowDeatilLeft
+{
+	background-color: #cadee8;
+	padding-right:20px;
+	text-align:right;
+    height:19px;
+}
+.workFlowDeatilRight
+{
+	width:70%;
+    height:19px;
+	background-color: #cadee8;
+}
+.workFlowDeatilDesc
+{
+    height:19px;
+    text-align:left;
+	background-color: #cadee8;
+}
+.workFlowDeatilTitle
+{
+    height:19px;
+    text-align:left;
+	background-color: #cadee8;
+	font-weight:bold;
+}
+
+
+.searchDIV {background-color: #e9f2f7; width: 100%; margin-bottom: 5px;}
+.searchLbl {padding-left: 10px;}
+.searchTxt {padding-right: 10px;}
+.searchBtn {padding-left: 10px; padding-right: 10px;}
+
+
+.ReportShow
+{
+	border-collapse:collapse;
+}
+.ReportShow td
+{
+	height:30px;
+border:1;
+cellpadding:0;
+cellspacing:0;
+}
+
+   #dvTable
+        {
+            border: 2px solid #DFDFDF;
+            background-color: #fff;
+            padding-left: none;
+            padding-bottom: 5px;
+            width: 100%;
+        }
+        
+    .dvTable
+        {
+            border: 2px solid #DFDFDF;
+            background-color: #fff;
+            padding-left: none;
+            padding-bottom: 5px;
+            width: 100%;
+        } 
+              
+         .mainField
+        {
+            margin: 10px 15px 5px 10px;
+            border: 0px solid #eee;
+            clear: both;
+            text-align: left;
+        } 
+  
+  #hbNav 		{padding:0 10px; height:27px; background: url(/images/nav.gif);}
+#hbNavwin {padding:0 10px; height:27px; background: url(navre.gif);}
+#navLeft 	{float:left;  margin-top:2px; padding:3px;}
+#navRight	{float:right; text-align:right; margin-top:2px; padding:3px;}
+#navRght	{float:right; text-align:right; margin-top:2px; padding:3px;}	/* 列表用, 因为有搜索框，会影响位置 */
+#qSrch		{width:8em;line-height:1.20em;border:1px solid #aaa;padding-left:2px;}   
+.textdocdown {  color: #0066FF; border-color: black black #999999; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px; border-left-width: 0px; font-size: 12px}.btndoc { color: #003048; font: normal 12px ; background: #c4e5fa; height: 18px; padding: 0px 1px; border: 1px #0066CC solid; letter-spacing: 3px }
+.hbdot,.hbgold,.icon {color: #FF8000; font-size: 12px; padding: 0 5px 0 3px; font-family: "宋体";}
+
+.hbbtn {
+	font-size: 12px; cursor: pointer; color: black; 
+	margin:0; padding: 4px 2px 0px 2px; 
+	line-height:13px;
+	border-right: #375660 1px solid; border-top: #FFFFFF 1px solid; border-left: #ffffff 1px solid; border-bottom: #375660 1px solid; 
+	filter: progid:dximagetransform.microsoft.gradient(gradienttype:0, startcolorstr:#ffffff, endcolorstr:#bbbbbb); 
+} 
+#dvBtn	 {text-align: left; clear:both; margin-top:3px;margin-bottom:3px; color:#888}  /* 提交表单 */
+.dvBtn	 {text-align: center; clear:both; margin-top:3px; color:#888l;width:100%}  /* 提交表单 */
+
+.bt {	BORDER-RIGHT: #B1E4FE 1px solid;PADDING-RIGHT: 5px;	BORDER-TOP: #B1E4FE 1px solid;	PADDING-LEFT: 5px;	FONT-WEIGHT: normal;	FONT-SIZE: 12px;	PADDING-BOTTOM: 2px;	BORDER-LEFT: #B1E4FE 1px solid;	PADDING-TOP: 2px;	BORDER-BOTTOM: #B1E4FE 1px solid;	WHITE-SPACE: nowrap;	BACKGROUND-COLOR: #EDFBFF;}

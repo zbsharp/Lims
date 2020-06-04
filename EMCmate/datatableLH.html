@@ -1,0 +1,456 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>龙华场地</title>
+    <link href="css/datatableFY.css" rel="stylesheet" />
+    <script src="../Easyui/jquery.min.js"></script>
+    <script src="EMCjs/datatableFY.js"></script>
+</head>
+<body>
+    <table id="price" class="plist">
+        <caption><label id="titlesite"></label></caption>
+        <tr>
+            <th><label></label></th>
+            <th><label></label></th>
+            <th class="headline"><label class="site" id="id">LH-谐波电流和电压闪烁场地</label></th>
+            <th class="headline"><label class="site">LH-传导和功率骚扰场地</label></th>
+            <th class="headline"><label class="site">LH-3米暗室</label></th>
+            <th class="headline"><label class="site">LH-快速脉冲群场地</label></th>
+            <th class="headline"><label class="site">LH-雷击（电源端）场地</label></th>
+            <th class="headline"><label class="site">LH-雷击（通讯端）场地</label></th>
+            <th class="headline"><label class="site">LH-电压跌落场地</label></th>
+            <th class="headline"><label class="site">LH-汽车电子大电流注入场地</label></th>
+            <th class="headline"><label class="site">LH-静电场地</label></th>
+            <th class="headline"><label class="site">LH-汽车电子ISO7637场地</label></th>
+            <th class="headline"><label class="site">LH-汽车电子ISO16750-2场地</label></th>
+        </tr>
+        <!-- 上午 -->
+        <!-- 第一行 -->
+        <tr class="datarow">
+            <td rowspan="7"><label>上午</label></td>
+            <td><label>8:30-9:00</label></td>
+            <td><label id="LHcell1-2"></label></td>
+            <td><label id="LHcell1-3"></label></td>
+            <td><label id="LHcell1-4"></label></td>
+            <td><label id="LHcell1-5"></label></td>
+            <td><label id="LHcell1-6"></label></td>
+            <td><label id="LHcell1-7"></label></td>
+            <td><label id="LHcell1-8"></label></td>
+            <td><label id="LHcell1-9"></label></td>
+            <td><label id="LHcell1-10"></label></td>
+            <td><label id="LHcell1-11"></label></td>
+            <td><label id="LHcell1-12"></label></td>
+        </tr>
+        <!-- 第二行 -->
+        <tr class="datarow">
+            <td><label>9:00-9:30</label></td>
+            <td><label id="LHcell2-2"></label></td>
+            <td><label id="LHcell2-3"></label></td>
+            <td><label id="LHcell2-4"></label></td>
+            <td><label id="LHcell2-5"></label></td>
+            <td><label id="LHcell2-6"></label></td>
+            <td><label id="LHcell2-7"></label></td>
+            <td><label id="LHcell2-8"></label></td>
+            <td><label id="LHcell2-9"></label></td>
+            <td><label id="LHcell2-10"></label></td>
+            <td><label id="LHcell2-11"></label></td>
+            <td><label id="LHcell2-12"></label></td>
+        </tr>
+        <!-- 第三行 -->
+        <tr class="datarow">
+            <td><label>9:30-10:00</label></td>
+            <td><label id="LHcell3-2"></label></td>
+            <td><label id="LHcell3-3"></label></td>
+            <td><label id="LHcell3-4"></label></td>
+            <td><label id="LHcell3-5"></label></td>
+            <td><label id="LHcell3-6"></label></td>
+            <td><label id="LHcell3-7"></label></td>
+            <td><label id="LHcell3-8"></label></td>
+            <td><label id="LHcell3-9"></label></td>
+            <td><label id="LHcell3-10"></label></td>
+            <td><label id="LHcell3-11"></label></td>
+            <td><label id="LHcell3-12"></label></td>
+        </tr>
+        <!-- 第四行 -->
+        <tr class="datarow">
+            <td><label>10:00-10:30</label></td>
+            <td><label id="LHcell4-2"></label></td>
+            <td><label id="LHcell4-3"></label></td>
+            <td><label id="LHcell4-4"></label></td>
+            <td><label id="LHcell4-5"></label></td>
+            <td><label id="LHcell4-6"></label></td>
+            <td><label id="LHcell4-7"></label></td>
+            <td><label id="LHcell4-8"></label></td>
+            <td><label id="LHcell4-9"></label></td>
+            <td><label id="LHcell4-10"></label></td>
+            <td><label id="LHcell4-11"></label></td>
+            <td><label id="LHcell4-12"></label></td>
+        </tr>
+        <!-- 第五行 -->
+        <tr class="datarow">
+            <td><label>10:30-11:00</label></td>
+            <td><label id="LHcell5-2"></label></td>
+            <td><label id="LHcell5-3"></label></td>
+            <td><label id="LHcell5-4"></label></td>
+            <td><label id="LHcell5-5"></label></td>
+            <td><label id="LHcell5-6"></label></td>
+            <td><label id="LHcell5-7"></label></td>
+            <td><label id="LHcell5-8"></label></td>
+            <td><label id="LHcell5-9"></label></td>
+            <td><label id="LHcell5-10"></label></td>
+            <td><label id="LHcell5-11"></label></td>
+            <td><label id="LHcell5-12"></label></td>
+        </tr>
+        <!-- 第六行 -->
+        <tr class="datarow">
+            <td><label>11:00-11:30</label></td>
+            <td><label id="LHcell6-2"></label></td>
+            <td><label id="LHcell6-3"></label></td>
+            <td><label id="LHcell6-4"></label></td>
+            <td><label id="LHcell6-5"></label></td>
+            <td><label id="LHcell6-6"></label></td>
+            <td><label id="LHcell6-7"></label></td>
+            <td><label id="LHcell6-8"></label></td>
+            <td><label id="LHcell6-9"></label></td>
+            <td><label id="LHcell6-10"></label></td>
+            <td><label id="LHcell6-11"></label></td>
+            <td><label id="LHcell6-12"></label></td>
+        </tr>
+        <!-- 第七行 -->
+        <tr class="datarow">
+            <td><label>11:30-12:00</label></td>
+            <td><label id="LHcell7-2"></label></td>
+            <td><label id="LHcell7-3"></label></td>
+            <td><label id="LHcell7-4"></label></td>
+            <td><label id="LHcell7-5"></label></td>
+            <td><label id="LHcell7-6"></label></td>
+            <td><label id="LHcell7-7"></label></td>
+            <td><label id="LHcell7-8"></label></td>
+            <td><label id="LHcell7-9"></label></td>
+            <td><label id="LHcell7-10"></label></td>
+            <td><label id="LHcell7-11"></label></td>
+            <td><label id="LHcell7-12"></label></td>
+        </tr>
+        <!-- 下午 -->
+        <!-- 第八行 -->
+        <tr class="datarow">
+            <td rowspan="9"><label>下午</label></td>
+            <td><label>13:30-14:00</label></td>
+            <td><label id="LHcell8-2"></label></td>
+            <td><label id="LHcell8-3"></label></td>
+            <td><label id="LHcell8-4"></label></td>
+            <td><label id="LHcell8-5"></label></td>
+            <td><label id="LHcell8-6"></label></td>
+            <td><label id="LHcell8-7"></label></td>
+            <td><label id="LHcell8-8"></label></td>
+            <td><label id="LHcell8-9"></label></td>
+            <td><label id="LHcell8-10"></label></td>
+            <td><label id="LHcell8-11"></label></td>
+            <td><label id="LHcell8-12"></label></td>
+        </tr>
+        <!-- 第九行 -->
+        <tr class="datarow">
+            <td><label>14:00-14:30</label></td>
+            <td><label id="LHcell9-2"></label></td>
+            <td><label id="LHcell9-3"></label></td>
+            <td><label id="LHcell9-4"></label></td>
+            <td><label id="LHcell9-5"></label></td>
+            <td><label id="LHcell9-6"></label></td>
+            <td><label id="LHcell9-7"></label></td>
+            <td><label id="LHcell9-8"></label></td>
+            <td><label id="LHcell9-9"></label></td>
+            <td><label id="LHcell9-10"></label></td>
+            <td><label id="LHcell9-11"></label></td>
+            <td><label id="LHcell9-12"></label></td>
+        </tr>
+        <!-- 第十行 -->
+        <tr class="datarow">
+            <td><label>14:30-15:00</label></td>
+            <td><label id="LHcell10-2"></label></td>
+            <td><label id="LHcell10-3"></label></td>
+            <td><label id="LHcell10-4"></label></td>
+            <td><label id="LHcell10-5"></label></td>
+            <td><label id="LHcell10-6"></label></td>
+            <td><label id="LHcell10-7"></label></td>
+            <td><label id="LHcell10-8"></label></td>
+            <td><label id="LHcell10-9"></label></td>
+            <td><label id="LHcell10-10"></label></td>
+            <td><label id="LHcell10-11"></label></td>
+            <td><label id="LHcell10-12"></label></td>
+        </tr>
+        <!-- 第十一行 -->
+        <tr class="datarow">
+            <td><label>15:00-15:30</label></td>
+            <td><label id="LHcell11-2"></label></td>
+            <td><label id="LHcell11-3"></label></td>
+            <td><label id="LHcell11-4"></label></td>
+            <td><label id="LHcell11-5"></label></td>
+            <td><label id="LHcell11-6"></label></td>
+            <td><label id="LHcell11-7"></label></td>
+            <td><label id="LHcell11-8"></label></td>
+            <td><label id="LHcell11-9"></label></td>
+            <td><label id="LHcell11-10"></label></td>
+            <td><label id="LHcell11-11"></label></td>
+            <td><label id="LHcell11-12"></label></td>
+        </tr>
+        <!-- 第十二行 -->
+        <tr class="datarow">
+            <td><label>15:30-16:00</label></td>
+            <td><label id="LHcell12-2"></label></td>
+            <td><label id="LHcell12-3"></label></td>
+            <td><label id="LHcell12-4"></label></td>
+            <td><label id="LHcell12-5"></label></td>
+            <td><label id="LHcell12-6"></label></td>
+            <td><label id="LHcell12-7"></label></td>
+            <td><label id="LHcell12-8"></label></td>
+            <td><label id="LHcell12-9"></label></td>
+            <td><label id="LHcell12-10"></label></td>
+            <td><label id="LHcell12-11"></label></td>
+            <td><label id="LHcell12-12"></label></td>
+        </tr>
+        <!-- 第十三行 -->
+        <tr class="datarow">
+            <td><label>16:00-16:30</label></td>
+            <td><label id="LHcell13-2"></label></td>
+            <td><label id="LHcell13-3"></label></td>
+            <td><label id="LHcell13-4"></label></td>
+            <td><label id="LHcell13-5"></label></td>
+            <td><label id="LHcell13-6"></label></td>
+            <td><label id="LHcell13-7"></label></td>
+            <td><label id="LHcell13-8"></label></td>
+            <td><label id="LHcell13-9"></label></td>
+            <td><label id="LHcell13-10"></label></td>
+            <td><label id="LHcell13-11"></label></td>
+            <td><label id="LHcell13-12"></label></td>
+        </tr>
+        <!-- 第十四行 -->
+        <tr class="datarow">
+            <td><label>16:30-17:00</label></td>
+            <td><label id="LHcell14-2"></label></td>
+            <td><label id="LHcell14-3"></label></td>
+            <td><label id="LHcell14-4"></label></td>
+            <td><label id="LHcell14-5"></label></td>
+            <td><label id="LHcell14-6"></label></td>
+            <td><label id="LHcell14-7"></label></td>
+            <td><label id="LHcell14-8"></label></td>
+            <td><label id="LHcell14-9"></label></td>
+            <td><label id="LHcell14-10"></label></td>
+            <td><label id="LHcell14-11"></label></td>
+            <td><label id="LHcell14-12"></label></td>
+        </tr>
+        <!-- 第十五行 -->
+        <tr class="datarow">
+            <td><label>17:00-17:30</label></td>
+            <td><label id="LHcell15-2"></label></td>
+            <td><label id="LHcell15-3"></label></td>
+            <td><label id="LHcell15-4"></label></td>
+            <td><label id="LHcell15-5"></label></td>
+            <td><label id="LHcell15-6"></label></td>
+            <td><label id="LHcell15-7"></label></td>
+            <td><label id="LHcell15-8"></label></td>
+            <td><label id="LHcell15-9"></label></td>
+            <td><label id="LHcell15-10"></label></td>
+            <td><label id="LHcell15-11"></label></td>
+            <td><label id="LHcell15-12"></label></td>
+        </tr>
+        <!-- 第十六行 -->
+        <tr class="datarow">
+            <td><label>17:30-18:00</label></td>
+            <td><label id="LHcell16-2"></label></td>
+            <td><label id="LHcell16-3"></label></td>
+            <td><label id="LHcell16-4"></label></td>
+            <td><label id="LHcell16-5"></label></td>
+            <td><label id="LHcell16-6"></label></td>
+            <td><label id="LHcell16-7"></label></td>
+            <td><label id="LHcell16-8"></label></td>
+            <td><label id="LHcell16-9"></label></td>
+            <td><label id="LHcell16-10"></label></td>
+            <td><label id="LHcell16-11"></label></td>
+            <td><label id="LHcell16-12"></label></td>
+        </tr>
+        <!-- 晚上 -->
+        <!-- 第十七行 -->
+        <tr class="datarow">
+            <td rowspan="12"><label>晚上</label></td>
+            <td><label>18:00-18:30</label></td>
+            <td><label id="LHcell17-2"></label></td>
+            <td><label id="LHcell17-3"></label></td>
+            <td><label id="LHcell17-4"></label></td>
+            <td><label id="LHcell17-5"></label></td>
+            <td><label id="LHcell17-6"></label></td>
+            <td><label id="LHcell17-7"></label></td>
+            <td><label id="LHcell17-8"></label></td>
+            <td><label id="LHcell17-9"></label></td>
+            <td><label id="LHcell17-10"></label></td>
+            <td><label id="LHcell17-11"></label></td>
+            <td><label id="LHcell17-12"></label></td>
+        </tr>
+        <!-- 第十八行 -->
+        <tr class="datarow">
+            <td><label>18:30-19:00</label></td>
+            <td><label id="LHcell18-2"></label></td>
+            <td><label id="LHcell18-3"></label></td>
+            <td><label id="LHcell18-4"></label></td>
+            <td><label id="LHcell18-5"></label></td>
+            <td><label id="LHcell18-6"></label></td>
+            <td><label id="LHcell18-7"></label></td>
+            <td><label id="LHcell18-8"></label></td>
+            <td><label id="LHcell18-9"></label></td>
+            <td><label id="LHcell18-10"></label></td>
+            <td><label id="LHcell18-11"></label></td>
+            <td><label id="LHcell18-12"></label></td>
+        </tr>
+        <!-- 第十九行 -->
+        <tr class="datarow">
+            <td><label>19:00-19:30</label></td>
+            <td><label id="LHcell19-2"></label></td>
+            <td><label id="LHcell19-3"></label></td>
+            <td><label id="LHcell19-4"></label></td>
+            <td><label id="LHcell19-5"></label></td>
+            <td><label id="LHcell19-6"></label></td>
+            <td><label id="LHcell19-7"></label></td>
+            <td><label id="LHcell19-8"></label></td>
+            <td><label id="LHcell19-9"></label></td>
+            <td><label id="LHcell19-10"></label></td>
+            <td><label id="LHcell19-11"></label></td>
+            <td><label id="LHcell19-12"></label></td>
+        </tr>
+        <!-- 二十行 -->
+        <tr class="datarow">
+            <td><label>19:30-20:00</label></td>
+            <td><label id="LHcell20-2"></label></td>
+            <td><label id="LHcell20-3"></label></td>
+            <td><label id="LHcell20-4"></label></td>
+            <td><label id="LHcell20-5"></label></td>
+            <td><label id="LHcell20-6"></label></td>
+            <td><label id="LHcell20-7"></label></td>
+            <td><label id="LHcell20-8"></label></td>
+            <td><label id="LHcell20-9"></label></td>
+            <td><label id="LHcell20-10"></label></td>
+            <td><label id="LHcell20-11"></label></td>
+            <td><label id="LHcell20-12"></label></td>
+        </tr>
+        <!-- 二十一行 -->
+        <tr class="datarow">
+            <td><label>20:00-20:30</label></td>
+            <td><label id="LHcell21-2"></label></td>
+            <td><label id="LHcell21-3"></label></td>
+            <td><label id="LHcell21-4"></label></td>
+            <td><label id="LHcell21-5"></label></td>
+            <td><label id="LHcell21-6"></label></td>
+            <td><label id="LHcell21-7"></label></td>
+            <td><label id="LHcell21-8"></label></td>
+            <td><label id="LHcell21-9"></label></td>
+            <td><label id="LHcell21-10"></label></td>
+            <td><label id="LHcell21-11"></label></td>
+            <td><label id="LHcell21-12"></label></td>
+        </tr>
+        <!-- 二十二行 -->
+        <tr class="datarow">
+            <td><label>20:30-21:00</label></td>
+            <td><label id="LHcell22-2"></label></td>
+            <td><label id="LHcell22-3"></label></td>
+            <td><label id="LHcell22-4"></label></td>
+            <td><label id="LHcell22-5"></label></td>
+            <td><label id="LHcell22-6"></label></td>
+            <td><label id="LHcell22-7"></label></td>
+            <td><label id="LHcell22-8"></label></td>
+            <td><label id="LHcell22-9"></label></td>
+            <td><label id="LHcell22-10"></label></td>
+            <td><label id="LHcell22-11"></label></td>
+            <td><label id="LHcell22-12"></label></td>
+        </tr>
+        <!-- 二十三行 -->
+        <tr class="datarow">
+            <td><label>21:00-21:30</label></td>
+            <td><label id="LHcell23-2"></label></td>
+            <td><label id="LHcell23-3"></label></td>
+            <td><label id="LHcell23-4"></label></td>
+            <td><label id="LHcell23-5"></label></td>
+            <td><label id="LHcell23-6"></label></td>
+            <td><label id="LHcell23-7"></label></td>
+            <td><label id="LHcell23-8"></label></td>
+            <td><label id="LHcell23-9"></label></td>
+            <td><label id="LHcell23-10"></label></td>
+            <td><label id="LHcell23-11"></label></td>
+            <td><label id="LHcell23-12"></label></td>
+        </tr>
+        <!-- 二十四行 -->
+        <tr class="datarow">
+            <td><label>21:30-22:00</label></td>
+            <td><label id="LHcell24-2"></label></td>
+            <td><label id="LHcell24-3"></label></td>
+            <td><label id="LHcell24-4"></label></td>
+            <td><label id="LHcell24-5"></label></td>
+            <td><label id="LHcell24-6"></label></td>
+            <td><label id="LHcell24-7"></label></td>
+            <td><label id="LHcell24-8"></label></td>
+            <td><label id="LHcell24-9"></label></td>
+            <td><label id="LHcell24-10"></label></td>
+            <td><label id="LHcell24-11"></label></td>
+            <td><label id="LHcell24-12"></label></td>
+        </tr>
+        <!-- 二十五行 -->
+        <tr class="datarow">
+            <td><label>22:00-22:30</label></td>
+            <td><label id="LHcell25-2"></label></td>
+            <td><label id="LHcell25-3"></label></td>
+            <td><label id="LHcell25-4"></label></td>
+            <td><label id="LHcell25-5"></label></td>
+            <td><label id="LHcell25-6"></label></td>
+            <td><label id="LHcell25-7"></label></td>
+            <td><label id="LHcell25-8"></label></td>
+            <td><label id="LHcell25-9"></label></td>
+            <td><label id="LHcell25-10"></label></td>
+            <td><label id="LHcell25-11"></label></td>
+            <td><label id="LHcell25-12"></label></td>
+        </tr>
+        <!-- 二十六行 -->
+        <tr class="datarow">
+            <td><label>22:30-23:00</label></td>
+            <td><label id="LHcell26-2"></label></td>
+            <td><label id="LHcell26-3"></label></td>
+            <td><label id="LHcell26-4"></label></td>
+            <td><label id="LHcell26-5"></label></td>
+            <td><label id="LHcell26-6"></label></td>
+            <td><label id="LHcell26-7"></label></td>
+            <td><label id="LHcell26-8"></label></td>
+            <td><label id="LHcell26-9"></label></td>
+            <td><label id="LHcell26-10"></label></td>
+            <td><label id="LHcell26-11"></label></td>
+            <td><label id="LHcell26-12"></label></td>
+        </tr>
+        <!-- 二十七行 -->
+        <tr class="datarow">
+            <td><label>23:00-23:30</label></td>
+            <td><label id="LHcell27-2"></label></td>
+            <td><label id="LHcell27-3"></label></td>
+            <td><label id="LHcell27-4"></label></td>
+            <td><label id="LHcell27-5"></label></td>
+            <td><label id="LHcell27-6"></label></td>
+            <td><label id="LHcell27-7"></label></td>
+            <td><label id="LHcell27-8"></label></td>
+            <td><label id="LHcell27-9"></label></td>
+            <td><label id="LHcell27-10"></label></td>
+            <td><label id="LHcell27-11"></label></td>
+            <td><label id="LHcell27-12"></label></td>
+        </tr>
+        <!-- 二十八行 -->
+        <tr class="datarow">
+            <td><label>23:30-23:59</label></td>
+            <td><label id="LHcell28-2"></label></td>
+            <td><label id="LHcell28-3"></label></td>
+            <td><label id="LHcell28-4"></label></td>
+            <td><label id="LHcell28-5"></label></td>
+            <td><label id="LHcell28-6"></label></td>
+            <td><label id="LHcell28-7"></label></td>
+            <td><label id="LHcell28-8"></label></td>
+            <td><label id="LHcell28-9"></label></td>
+            <td><label id="LHcell28-10"></label></td>
+            <td><label id="LHcell28-11"></label></td>
+            <td><label id="LHcell28-12"></label></td>
+        </tr>
+    </table>
+</body>
+</html>

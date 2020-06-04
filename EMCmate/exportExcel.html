@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../Web_CSS/WebCss.css" rel="stylesheet" type="text/css" />
+    <link href="../Easyui/themes/default/easyui.css" rel="stylesheet" />
+    <link href="../Easyui/themes/icon.css" rel="stylesheet" />
+    <script src="../Easyui/jquery.min.js"></script>
+    <script src="../Easyui/jquery.easyui.min.js"></script>
+    <script src="../Easyui/locale/easyui-lang-zh_CN.js"></script>
+    <script src="../Easyui/datagrid-export.js"></script>
+    <script src="EMCjs/export.js"></script>
+</head>
+<body>
+    <div class="Body_Title">
+        现场测试》》数据导出
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp; 日期：<input id="timestart" type="text" class="easyui-datebox" required="required" editable="false" style="width:110px;">
+    到：<input id="timestop" type="text" class="easyui-datebox" required="required" editable="false" style="width:110px;">
+    <a id="btnselect" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a>
+    <a href="javascript:;" class="easyui-linkbutton" onclick="$('#dg').datagrid('toExcel','EMC.xls')">导出Excel</a>
+    <div>
+        <table id="dg"></table>
+    </div>
+</body>
+</html>

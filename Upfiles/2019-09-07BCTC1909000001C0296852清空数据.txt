@@ -1,0 +1,11 @@
+Clause2
+Customer
+Customer2
+CustomerLinkMan
+Product2
+ShangBaoXiangMu
+Sys_Area
+UserDepa
+UserDuty
+UserInfo
+ZiLiaoType

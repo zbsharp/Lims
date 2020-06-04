@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--#include file="Config.asp" -->
+  <!--media=print   这个属性可以在打印时有效-->   
+  <style   media=print>   
+  .Noprint{display:none;font-family:   "宋体"; font-size:   9pt;}   
+  </style>   
+  <!--在此定义报表字体-->  
+  <style>   
+  .STYLE1 {font-size: x-large; font-weight: bold; }
+  .STYLE2 {font-size: 24px; font-weight: bold;}
+  .STYLE3 {font-size: 16px; font-weight: bold; }
+  .STYLE4 {font-size: 16px} 
+  </style>   
+
+<%
+Dim TaskNum,Rs2,SN,myName,TempStr
+ItemID=Trim(Request.QueryString("ItemID"))
+myName=session("UserName")
+
+'----------权限控制---------------
+    Sql="select * from [检测任务表] Where 自动编号=" & ItemID
+    Set Rs=Server.Createobject("Adodb.RecordSet")
+    Rs.Open Sql,Conn,1,1
+	TaskNum=Rs("任务号")
+	
+	If not(Rs("编制人")=myName OR Rs("工程师1")=myName OR myName="林幸笋") Then
+	  Response.Write "<script>alert('本页面目前只授权给本任务的编制人和主检工程师！');window.close();</script>"
+	  Rs.Close:Set Rs=Nothing
+	 Response.end
+	end if
+%>
+
+  <center   class="Noprint"   >   
+  <br>   
+      <OBJECT     id=WebBrowser     classid=CLSID:8856F961-340A-11D0-A96B-00C04FD705A2     height=0     width=0>   
+      </OBJECT>   
+		<input     type=button     value="预 览"     onclick=document.all.WebBrowser.ExecWB(7,1)>  
+      <input     type=button     value="打 印"                     onclick=document.all.WebBrowser.ExecWB(6,1)> 
+      <input     type=button     value="设 置"     onclick=document.all.WebBrowser.ExecWB(8,1)>   
+	        <input     type=button     value="关 闭"     onclick="javascript:window.close();">   
+  <br /><p>（打印设置要求：纸张大小A4，页边距上下10mm左右20mm，清空页眉页脚）
+  <hr   align="center"   width="90%"   size="1"   noshade>   
+  </center>
+
+
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr><td height="20" colspan="2"></td></tr>
+  <tr>
+    <td><div align="center" class="STYLE1">&nbsp;&nbsp;&nbsp;&nbsp;工作任务通知书</div>
+	<td width="60" style="border-style:dashed; border-width:1px; border-color:#666666; color:#666666"><div align="center" class="STYLE2"> <%=Rs("优先级")%> </div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+		<div align="right" class="STYLE3">工作任务编号：<%=TaskNum%></div>
+    	<br>
+	</td>
+  </tr>
+</table>
+<table width="600" border="1" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
+  <tr>
+    <td><table width="600" border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
+      <tr height="35">
+        <td width="85" align="center" class="STYLE3">样品名称</div></td>
+        <td width="210" align="left" class="STYLE4"><%=Rs("样品名称")%></td>
+        <td width="85" align="center" class="STYLE3">制造厂商</td>
+        <td width="220" align="left" class="STYLE4"><%=Rs("生产厂")%></td>
+      </tr>
+      <tr height="35">
+        <td align="center" class="STYLE3">样品型号</td>
+        <td align="left" class="STYLE4">
+			<%TempStr=Trim(Rs("型号规格"))
+			if len(TempStr)>28 then 
+				Response.Write left(TempStr,25)&"..."
+			else 
+				Response.Write ""&TempStr&""
+			end if %>		
+		</td>
+        <td align="center" class="STYLE3">委托单位</td>
+        <td align="left" class="STYLE4"><%=Rs("委托单位")%></td>
+      </tr>
+      <tr height="35">
+        <td align="center" class="STYLE3">商 标</td>
+        <td align="left" class="STYLE4"><%=Rs("商标")%></td>
+        <td align="center" class="STYLE3">取样方式</td>
+        <td align="left" class="STYLE4"><%=Rs("取样方式")%></td>
+      </tr>
+      <tr height="35">
+        <td align="center" class="STYLE3">样品数量</td>
+        <td align="left" class="STYLE4"><%=Rs("样品数量")%></td>
+        <td align="center" class="STYLE3">抽样单位</td>
+        <td align="left" class="STYLE4"><%=Rs("抽样单位")%></td>
+      </tr>
+      <tr height="35">
+        <td align="center" class="STYLE3">送检日期</td>
+        <td align="left" class="STYLE4"><%=Rs("送检日期")%></td>
+        <td align="center" class="STYLE3">抽样母数</td>
+        <td align="left" class="STYLE4"><%=Rs("抽样母体数")%></td>
+      </tr>
+      <tr height="35">
+        <td align="center" class="STYLE3">生产日期</td>
+        <td align="left" class="STYLE4"><%=Rs("生产日期")%></td>
+        <td align="center" class="STYLE3">抽样日期</td>
+        <td align="left" class="STYLE4"><%=Rs("抽样日期")%></td>
+      </tr>
+      <tr height="35">
+        <td align="center" class="STYLE3">检测类别</td>
+        <td align="left" class="STYLE4"><%=Rs("试验类别")%></td>
+        <td align="center" class="STYLE3">抽样地点</td>
+        <td align="left" class="STYLE4"><%=Rs("抽样地点")%></td>
+      </tr>
+      <tr height="35" valign="center">
+        <td align="center" class="STYLE3">申请编号</td>
+        <td align="left" class="STYLE4"><%=Trim(Rs("申请编号"))%></td>
+        <td align="center" class="STYLE3">报告编号</td>
+<% 	
+	TempStr=Rs("申请编号")
+	Set Rs2 = Server.CreateObject("Adodb.RecordSet")
+	Sql="SELECT top 1 报告号 FROM [检测报告表] Where 任务号='"& TaskNum & "'"
+	Rs2.OPen Sql,conn,1,1
+%>
+        <td align="left" class="STYLE4"><%=Rs2("报告号")%>&nbsp;</td>
+<%
+	Rs2.close:Set Rs2=nothing
+%>		
+      </tr>
+    </table>
+	<br>
+    <p align="center">&nbsp;</p>
+    <p align="center" class="STYLE2">检测项目和技术要求</p>
+    <table width="600" border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse">
+	  <tr height="35">
+        <td width="30%" align="center" class="STYLE3">检测项目</div></td>
+        <td width="40%" align="center" class="STYLE3">技术要求</div></td>
+        <td width="30%" align="center" class="STYLE3">备注</div></td>
+      </tr>
+ 	<%
+  	Set Rs2 = Server.CreateObject("Adodb.RecordSet")
+	Sql="SELECT * FROM [检测项目表] Where 任务号='"& Rs("任务号") & "'"
+	Rs2.OPen Sql,conn,1,1
+	SN=1
+	While Not Rs2.Eof
+	%>
+      <tr height="35">
+        <td align="left" class="STYLE4"><%=Rs2("试验项目")%></td>
+        <td align="left" class="STYLE4"><%=Rs2("技术要求")%></td>
+        <td align="left" class="STYLE4"><%=Rs2("备注")%></td>
+      </tr>
+	<%
+	Rs2.MoveNext
+	SN=SN+1
+	Wend
+	Rs2.Close
+	Set Rs2 = Nothing
+	%>
+    </table>
+
+<!--排版占位：如果不够7个检测项目，下面就画足7行。如果超过，可能的后果是任务通知书变成2页！不过这种情况几乎不会出现。-->	
+<table  width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+<%
+	for SN=SN to 7 
+		response.write "<tr height='35'><td></td></tr>"
+	next
+%>
+</table>
+
+<%
+	Dim ContactName,Tel,Email
+	ContactName=Rs("代理公司联系人")
+	if ContactName="" then ContactName=Rs("委托单位联系人") end if
+	if ContactName="" then ContactName=Rs("制造商联系人") end if
+	if ContactName="" then ContactName=Rs("生产厂联系人") end if
+
+  	Set Rs2 = Server.CreateObject("Adodb.RecordSet")
+	Sql="SELECT * FROM [eims_Contact] Where Item1='"& ContactName & "'"
+	Rs2.OPen Sql,conn,1,1
+	Tel=Rs2("电话")
+	Email=Rs2("电邮")
+	Rs2.close:Set Rs2=nothing
+%>
+    <table width="600" border="0">
+      <tr height="40">
+        <td width="100" class="STYLE3">联系人：</td>
+        <td width="250" class="STYLE4"><%=ContactName%></td>
+        <td width="130" class="STYLE3">任务承接人：</td>
+        <td width="120" class="STYLE4"><%=Rs("承接人1")%></td>
+      </tr>
+      <tr height="40">
+        <td class="STYLE3">联系电话：</td>
+        <td class="STYLE4"><%=Tel%></td>
+        <td class="STYLE3">检测负责人：</td>
+        <td class="STYLE4">&nbsp;</td>
+      </tr>
+      <tr height="40">
+        <td class="STYLE3">电子邮件：</td>
+        <td class="STYLE4"><%=Email%></td>
+        <td class="STYLE3">任务下达日期：</td>
+        <td class="STYLE4"><%=Rs("任务下达日期")%></td>
+      </tr>
+      <tr height="40">
+        <td class="STYLE3">客户要求：</td>
+        <td class="STYLE4"><%=Rs("客户要求")%></td>
+        <td class="STYLE3">要求完成日期：</td>
+        <td class="STYLE4"><%=Rs("要求完成日期")%></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr height="40">
+    <td width="150"></td>
+    <td width="150"></td>
+    <td width="150"><span class="STYLE3">编制人：</span></td>
+    <td width="150"><span class="STYLE4"><%=Rs("编制人")%></span></td>
+  </tr>
+</table>
+<%Rs.Close:Set Rs=Nothing%>
+</body>
+</html>

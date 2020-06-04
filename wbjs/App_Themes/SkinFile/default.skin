@@ -1,0 +1,11 @@
+<asp:Menu runat="server" BackColor="#E3EAEB" DynamicHorizontalOffset="2" StaticEnableDefaultPopOutImage="False" Font-Names="Arial Narrow" Font-Size="12px" ForeColor="blue"
+    Orientation="Horizontal" StaticSubMenuIndent="5px">
+    <StaticMenuItemStyle HorizontalPadding="2px" VerticalPadding="2px" Width="100%" Font-Size="12px"  ForeColor="blue"/>
+    <DynamicHoverStyle BackColor="#E3EAEB" ForeColor="blue" Font-Size="12px"/>
+    <DynamicMenuStyle BackColor="#E3EAEB"  Font-Size="12px"/>
+    <DynamicMenuItemStyle HorizontalPadding="2px" VerticalPadding="2px" ForeColor="blue" Font-Size="12px"/>
+    <StaticHoverStyle BackColor="#E3EAEB" ForeColor="blue" Font-Size="12px"/>
+</asp:Menu>
+
+
+<asp:Button  runat="server" cssClass="button"/>

@@ -1,0 +1,6 @@
+
+在客户表中新增加两个字段，分别用来存放最新做报价的日期和最新跟踪记录的日期
+保存报价的时候就更新一下客户中最新报价日期的字段
+保存跟踪记录的时候就更新客户中最新跟踪记录的日期
+然后获取一个以下sql的客户列表（先这么简单一点处理）
+select * from Customer where (SELECT DATEDIFF(day,GetDate(),'客户表中用来存放最新报价日期的字段') AS DiffDate)>30  or  (SELECT DATEDIFF(day,GetDate(),'客户表中用来存放最新跟踪日期的字段') AS DiffDate)>60

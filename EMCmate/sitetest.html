@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../Web_CSS/WebCss.css" rel="stylesheet" type="text/css" />
+    <link href="../Easyui/themes/default/easyui.css" rel="stylesheet" />
+    <link href="../Easyui/themes/icon.css" rel="stylesheet" />
+    <link href="..//Web_CSS/sitetest.css" rel="stylesheet" type="text/css" />
+    <link href="laydate/theme/default/laydate.css" rel="stylesheet" />
+    <script src="../Easyui/jquery.min.js"></script>
+    <script src="laydate/laydate.js"></script>
+    <script src="../Easyui/jquery.easyui.min.js"></script>
+    <script src="../Easyui/locale/easyui-lang-zh_CN.js"></script>
+    <script src="EMCjs/sitetest.js"></script>
+ </head>
+<body>
+    <div class="Body_Title">
+        现场测试》》预约
+    </div>
+    <input class="easyui-textbox" data-options="prompt:'模糊查询'" href="#" id="txt" style="width:250px">
+    <input id="cmbarea" name="dept" editable="false" style="width:95px;">
+    <input id="dd" type="text" class="easyui-datebox" required="required" editable="false" style="width:110px;">
+    <a id="btnselect" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a>
+    <a id="btnLH" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'">预约龙华场地</a>
+    <a id="btnFY" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'">预约福永场地</a>
+    <a id="btndelete" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'">删除预约</a>
+    <div>
+        <table id="dg"></table>
+    </div>
+    <!-- 模态框  龙华 -->
+    <div id="win" style="display:none;">
+        <P>
+            <span>
+                &nbsp; &nbsp; 测试场地
+                <input id="cbtestitem" name="dept" style="height:20px;" editable="false">
+            </span>
+            <span>
+                &nbsp; &nbsp; 预约人
+                <input class="easyui-textbox" id="cmbResponser" style="width:95px;height:20px;">
+            </span>
+        </P>
+        <p>
+            <span>
+                &nbsp; &nbsp; 测试项目
+                <input id="cbxm" style="height:20px;" name="dept" editable='false'>
+            </span>
+            <span>
+                费用单价
+                <input id="txprice" class="easyui-textbox" style="width:95px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp; 测试标准
+                <input class="easyui-textbox" id="teststandard" style="width:150px;height:20px;">
+            </span>
+            <span>
+                测试型号
+                <input class="easyui-textbox" id="txmodel" style="width:120px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;  客户名称
+                <input id="cmbcustomer" name="dept" style="width:300px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;   客户联系人
+                <input id="cmblinkman" name="dept" class="easyui-combobox" style="height:20px;">
+            </span>
+            <span>
+                &nbsp; &nbsp; 联系电话
+                <input id="txphone" class="easyui-textbox" style="width:95px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;  产品名称
+                <input id="project" class="easyui-textbox" style="width:300px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;  开始时间
+                <input type="text" id="datestart" readonly="" style="width:300px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;  结束时间
+                <input type="text" id="datestop" readonly="" style="width:300px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp; 测试费用
+                <input class="easyui-textbox" id="txmoney" style="width:200px;height:20px;">
+            </span>
+            <span style="font-size:10px;color:red">&nbsp; &nbsp;每小时的费用</span>
+        </p>
+        <p>
+            <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;报价编号
+                <input class="easyui-textbox" id="txbaojiaid" style="width:200px;height:20px;"><span style="font-size:10px;color:red">&nbsp; &nbsp;如果申请免费，则必须填写报价编号</span>
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                <input id="chkfree" type="checkbox" />申请免费
+                &nbsp;&nbsp;
+                <input id="chkcustomer" type="checkbox" />客户是否来现场
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp; 备注
+                <input class="easyui-textbox" id="txremork" data-options="multiline:true" style="width:300px;height:60px">
+            </span>
+        </p>
+        <p>
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <span>
+                <a id="btninsert" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">提交</a>
+                &nbsp;&nbsp;
+                <a id="btnclose" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">取消</a>
+            </span>
+        </p>
+    </div>
+
+    <!-- 模态框  福永 -->
+    <div id="winFY" style="display:none;">
+        <P>
+            <span>
+                &nbsp; &nbsp; 测试场地
+                <input id="cbtestitemFY" name="dept" style="height:20px;" editable="false">
+            </span>
+            <span>
+                &nbsp; &nbsp; 预约人
+                <input class="easyui-textbox" id="cmbResponserFY" style="width:95px;height:20px;">
+            </span>
+        </P>
+        <p>
+            <span>
+                &nbsp; &nbsp; 测试项目
+                <input id="cbxmFY" style="height:20px;" name="dept" editable='false'>
+            </span>
+            <span>
+                费用单价
+                <input id="txpriceFY" class="easyui-textbox" style="width:95px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp; 测试标准
+                <input class="easyui-textbox" id="teststandardFY" style="width:150px;height:20px;">
+            </span>
+            <span>
+                测试型号
+                <input class="easyui-textbox" id="txmodelFY" style="width:120px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;  客户名称
+                <input id="cmbcustomerFY" name="dept" style="width:300px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;   客户联系人
+                <input id="cmblinkmanFY" name="dept" class="easyui-combobox" style="height:20px;">
+            </span>
+            <span>
+                &nbsp; &nbsp; 联系电话
+                <input id="txphoneFY" class="easyui-textbox" style="width:95px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;  产品名称
+                <input id="projectFY" class="easyui-textbox" style="width:300px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;  开始时间
+                <input type="text" id="datestartFY" readonly="" style="width:300px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;  结束时间
+                <input type="text" id="datestopFY" readonly="" style="width:300px;height:20px;">
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp; 测试费用
+                <input class="easyui-textbox" id="txmoneyFY" style="width:200px;height:20px;">
+                <span style="font-size:10px;color:red">&nbsp; &nbsp;每小时的单价</span>
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp;&nbsp;&nbsp;报价编号
+                <input class="easyui-textbox" id="txbaojiaidFY" style="width:200px;height:20px;"><span style="font-size:10px;color:red">&nbsp; &nbsp;如果申请免费，则必须填写报价编号</span>
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                <input id="chkfreeFY" type="checkbox" />申请免费
+                &nbsp;&nbsp;
+                <input id="chkcustomerFY" type="checkbox" />客户是否来现场
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp; 备注
+                <input class="easyui-textbox" id="txremorkFY" data-options="multiline:true" style="width:300px;height:60px">
+            </span>
+        </p>
+        <p>
+            <span style="font-size:12px; color:red;">&nbsp; &nbsp; 特殊时间段找周经理确认后、由前台预约</span>
+            &nbsp; &nbsp;&nbsp; &nbsp;
+            <span>
+                <a id="btninsertFY" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">提交</a>
+                &nbsp;&nbsp;
+                <a id="btncloseFY" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">取消</a>
+            </span>
+        </p>
+    </div>
+
+    <!-- 模态框 编辑龙华 -->
+    <div id="winupdate" style="display:none;">
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;预约编号：<label id="emcid"></label></span><label style="display:none;" id="cd"></label></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;开始时间：<input type="text" id="txupstartdate" readonly="" style="width:300px;height:20px;"></span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;结束时间：<input type="text" id="txupstopdate" readonly="" style="width:300px;height:20px;"></span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;实际价格：<input id="txupprice" class="easyui-textbox" style="width:95px;height:20px;"></span><span style="font-size:10px;color:red">&nbsp; &nbsp;每小时的单价</span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;实际预约人：<input id="cmbupResponser" name="dept" style="height:20px;"></span></p>
+        <p>
+            <span>
+                &nbsp; &nbsp; 备注
+                <input class="easyui-textbox" id="txupremork" data-options="multiline:true" style="width:300px;height:60px">
+            </span>
+        </p>
+        <p>
+            <span style="align-content:center;">
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <a id="btnupdate" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">保存</a>
+                &nbsp; &nbsp;
+                <a href="#" id="btnupdateclose" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">取消</a>
+            </span>
+        </p>
+    </div>
+
+    <!-- 模态框 编辑福永 -->
+    <div id="winupdateFY" style="display:none;">
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;预约编号：<label id="emcidFY"></label></span><label style="display:none;" id="cdFY"></label></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;开始时间：<input type="text" id="txupstartdateFY" style="width:300px;height:20px;" readonly=""></span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;结束时间：<input type="text" id="txupstopdateFY" style="width:300px;height:20px;" readonly=""></span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;实际价格：<input id="txuppriceFY" class="easyui-textbox" style="width:95px;height:20px;"></span><span style="font-size:10px;color:red">&nbsp; &nbsp;每小时的单价</span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;实际预约人：<input id="cmbupResponserFY" name="dept" style="height:20px;"></span></p>
+        <p>
+            <span>
+                &nbsp; &nbsp; 备注
+                <input class="easyui-textbox" id="txupremorkFY" data-options="multiline:true" style="width:300px;height:60px">
+            </span>
+        </p>
+        <p>
+            <span style="align-content:center;">
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <a id="btnupdateFY" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">保存</a>
+                &nbsp; &nbsp;
+                <a href="#" id="btnupdatecloseFY" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">取消</a>
+            </span>
+        </p>
+    </div>
+
+    <!-- 模态框 前台编辑 -->
+    <div id="win_receptionist" style="display:none;">
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;预约编号：<label id="emcid_receptionist"></label></span><label style="display:none;" id="lbarea"></label></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;开始时间：<input type="text" id="txstartdate_receptionist" style="width:300px;height:20px;" readonly=""></span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;结束时间：<input type="text" id="txstopdate_receptionist" style="width:300px;height:20px;" readonly=""></span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;实际价格：<input id="txprice_receptionist" class="easyui-textbox" style="width:95px;height:20px;"></span><span style="font-size:10px;color:red">&nbsp; &nbsp;每小时的单价</span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;实际预约人：<input id="cmbResponser_receptionist" name="dept" style="height:20px;"></span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;预约状态：<input id="cmbResponser_bookingstatus" name="dept" style="height:20px;" editable="false"></span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;测试单号：<input class="easyui-textbox" id="txEMCnumber_receptionist" style="height:20px;" /></span></p>
+        <p><span> &nbsp; &nbsp;&nbsp; &nbsp;测试人：<input class="easyui-textbox" id="txengineer_receptionist" style="height:20px;" /></span></p>
+        <p>
+            <span>
+                &nbsp; &nbsp;&nbsp; &nbsp;实际总费用：<input class="easyui-textbox" id="txshijisumprice_receptionist" style="height:20px;width:95px;" />
+            </span>
+            <span>
+                &nbsp; &nbsp;&nbsp;
+                实际时长：<input class="easyui-textbox" id="txshijihour_receptionist" style="height:20px;width:85px;" />
+            </span>
+        </p>
+        <p>
+            <span>
+                &nbsp; &nbsp; 备注
+                <input class="easyui-textbox" id="txupremork_receptionist" data-options="multiline:true" style="width:300px;height:60px">
+            </span>
+        </p>
+        <p>
+            <span style="align-content:center;">
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <a id="btnreceptionistYES" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">保存</a>
+                &nbsp; &nbsp;
+                <a href="#" id="btnreceptionistClose" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">取消</a>
+            </span>
+        </p>
+    </div>
+</body>
+</html>

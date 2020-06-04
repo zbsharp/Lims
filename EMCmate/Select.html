@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../Web_CSS/WebCss.css" rel="stylesheet" type="text/css" />
+    <link href="../Easyui/themes/default/easyui.css" rel="stylesheet" />
+    <link href="../Easyui/themes/icon.css" rel="stylesheet" />
+    <script src="../Easyui/jquery.min.js"></script>
+    <script src="../Easyui/jquery.easyui.min.js"></script>
+    <script src="../Easyui/locale/easyui-lang-zh_CN.js"></script>
+    <script src="EMCjs/select.js"></script>
+</head>
+<body>
+    <div class="Body_Title">
+        现场测试》》查询
+    </div>
+    <select id="cc" class="easyui-combobox" name="dept" style="width:80px;" data-options="panelHeight:'auto'" editable="false">
+        <option>福永</option>
+        <option>龙华</option>
+    </select>
+    <input id="dd" type="text" class="easyui-datebox" required="required" editable="false">
+    <a id="btnselect" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a>
+    <a id="btnselectFY" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询福永预约</a>
+    <a id="btnselectLH" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询龙华预约</a>
+    <div>
+        <table id="dg"></table>
+    </div>
+</body>
+</html>

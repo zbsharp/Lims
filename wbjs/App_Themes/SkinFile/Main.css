@@ -1,0 +1,417 @@
+﻿body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.textbox {
+	border: 1px solid #acbac4;
+}
+.tabTextbox {
+	border: 1px solid #acbac4;
+	width:140px;
+}
+.tabTextboxOK {
+	border: 1px solid #FE9BA2;
+	width:140px;
+}
+body,td,th {
+	font-size: 12px;
+	color: #333333;
+	line-height: normal;
+}
+.button
+{
+    padding-right: 4px;	padding-left: 4px; FONT-WEIGHT: normal;	FONT-SIZE: 12px; padding-bottom: 2px; MARGIN: 1px 0px 0px; DISPLAY: inline;	COLOR: #000000;	LINE-height: 15px; padding-top: 2px; height: 22px; border: 1px outset #a8a8a8;
+}
+.ibutton
+{
+	border:1px solid #666;
+	height:18px;
+	background-color:#efefef;
+	font:12px Arial;
+}
+.inputTable
+{
+	border-collapse:collapse;
+}
+inputTable:TD
+{
+ height:22px;	
+}
+
+.disable
+{
+	font-family: 新宋体, 新宋体-18030, 宋体-18030, 宋体;
+	font-size: 11pt;
+	height: 18px;
+	border: 1px solid #336699;
+	background-color: #cccccc;
+	color: red;
+	font-weight: bold;
+}
+.content 
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR: #000000;
+}
+.content:link {
+	COLOR: #000000;
+}
+.content:visited {
+	COLOR: #000000;
+}
+.content:hover {
+	COLOR:#ff7300;
+	 text-decoration:none;
+}
+.linkRed 
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Red;
+}
+.linkRed:link {
+	COLOR:Red;
+}
+.linkRed:visited {
+	COLOR:Red;
+}
+.linkRed:hover {
+	COLOR:Red;
+	 text-decoration:none;
+}
+
+.tabLabel
+{
+	 width:80px;
+	 height:25px;
+	 text-align:right;
+}
+.tabLabelNH
+{
+	 width:80px;
+	 height:25px;
+}
+.tabLabelFlow
+{
+	 width:114px;
+	 height:25px;
+	 text-align:center;
+}
+.tabEditLabel
+{
+	 width:90px;
+	 height:25px;
+	 text-align:right;
+}
+.tabTxtboxTD
+{
+	width:130px;
+}
+.tabTxtboxFlow
+{
+	width:150px;
+	text-align:left;
+}
+.tabTxtboxTDList
+{
+	width:150px;
+	text-align:left;
+}
+.tabEditTD
+{
+	width:150px;
+}
+
+.lefttop
+{
+	background-image: url(images/defaultLeft.jpg);
+}
+.leftbj
+{
+	background-image: url(images/bj2.jpg);
+}
+.leftmid
+{
+	background-image: url(images/menu3.jpg);
+}
+.mid
+{
+	background-color: #aec5f7;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.selectTD
+{
+	background-color: #ffffff;
+	font-size: 12px;
+	line-height: 20px; height:25px;
+	color: #000000;
+	text-decoration: none;
+}
+.datagrid-style
+{
+	height:25px;
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+}
+.datagrid-stylecentter
+{
+	text-align:center;
+	height:25px;
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+}
+.datagrid-headerstyle
+{
+	height:22px;
+	background-color: #0499f3;
+	color:White;
+}
+.datagrid-headercolor
+{
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+	color:White;
+}
+.datagrid-alternatingitemstyle
+{
+	background-color: #F5F7FD;
+}
+.datagrid-footerstyle
+{
+	background-color: #D8E0F1;
+}
+.datagrid-pagerstyle
+{
+	background-color: #D8E0F1;
+}
+.lblTitleTD
+{
+	height: 20px;
+	background-color:#efefef;
+	text-align:left;
+	font-weight:bold;
+}
+.lblSmailTitle
+{
+	height: 20px;
+	text-align:left;
+	font-weight:bold;
+}
+.lblSmailTitleLeft
+{
+	height: 20px;
+	text-align:left;
+	width:114px;
+	font-weight:bold;
+	background-color:#ffffff;
+}
+.colorTR
+{
+	background-color:#dee5e5;
+	height:15px;
+}
+.lblP
+{
+	text-indent:10px;
+}
+.btn_p
+{
+	margin: 0cm 0cm 0pt;
+}
+.pageTextBox {font-family: 新宋体, 新宋体-18030, 宋体-18030, 宋体; background-color: white; font-size: 11pt; height: 13px; border: 1px solid #ddd;}
+.pagebutton
+{
+    padding-right: 4px;	padding-left: 4px; FONT-WEIGHT: normal;	FONT-SIZE: 12px; padding-bottom: 2px; MARGIN: 1px 0px 0px; DISPLAY: inline;	COLOR: #000000;	LINE-height: 15px; padding-top: 2px; height: 22px; border: 1px outset #ddd;
+}
+
+.EnabledTextbox {
+	border: 1px solid #acbac4;
+	color:#aca899;
+	width:140px;
+}
+
+
+.bluelink 
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Blue;
+}
+.bluelink:link {
+	COLOR:Blue;
+}
+.bluelink:visited {
+	COLOR:Blue;
+}
+.bluelink:hover {
+	COLOR:Blue;
+	 text-decoration:none;
+}
+.divrun
+{
+	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #ece9d8;
+	scrollbar-highlight-color:#ece9d8;
+	scrollbar-3dlight-color: #ece9d8;
+	scrollbar-darkshadow-color: #ece9d8;
+	scrollbar-track-color:#ece9d8;
+	scrollbar-arrow-color: #000000;
+}
+.boderDiv
+{
+	border-right: #efefef 1px solid; border-top: #efefef 1px solid; border-left: #efefef 1px solid; border-bottom: #efefef 1px solid;
+}
+.InfoLeftTD
+{
+ width:70px;
+ height:25px;
+ text-align:center;	
+}
+.InfoRightTD
+{
+ width:100px;	
+ text-align:left;
+}
+
+
+.InfoTextbox {
+	border: 1px solid #FE9BA2;
+	width:95px;
+}
+.InfoTextboxAll {
+	border: 1px solid #FE9BA2;
+	width:120px;
+}
+
+
+.button_bak {
+	BORDER-RIGHT: medium none; 
+	BORDER-TOP: medium none; 
+	BACKGROUND-IMAGE: url(images/button_On.gif); 
+	BORDER-LEFT: medium none; 
+	WIDTH: 60px; 
+	CURSOR: pointer; 
+	BORDER-BOTTOM: medium none; 
+	HEIGHT: 20px;
+	FONT-SIZE: 9pt; 
+	FONT-FAMILY: tahoma,宋体;
+}
+.button_bak110 {
+	BORDER-RIGHT: medium none; 
+	BORDER-TOP: medium none; 
+	BACKGROUND-IMAGE: url(images/button_On110.gif); 
+	BORDER-LEFT: medium none; 
+	WIDTH: 110px; 
+	CURSOR: pointer; 
+	BORDER-BOTTOM: medium none; 
+	HEIGHT: 20px;
+	FONT-SIZE: 9pt; 
+	FONT-FAMILY: tahoma,宋体;
+}
+.button_bak185 {
+	BORDER-RIGHT: medium none; 
+	BORDER-TOP: medium none; 
+	BACKGROUND-IMAGE: url(images/button_On185.gif); 
+	BORDER-LEFT: medium none; 
+	WIDTH: 185px; 
+	CURSOR: pointer; 
+	BORDER-BOTTOM: medium none; 
+	HEIGHT: 20px;
+	FONT-SIZE: 9pt; 
+	FONT-FAMILY: tahoma,宋体;
+}
+
+
+.tabLabelFlowSmail
+{
+	 width:90px;
+	 height:25px;
+	 text-align:center;
+}
+
+.tabTxtboxFlowSmail
+{
+	width:136px;
+	text-align:left;
+}
+
+.checkBoSpaceP
+{
+	 	 margin:0 0 0 20px;
+}
+.lineR110
+{
+	WIDTH: 110px;
+}
+.lineT110
+{
+	border-top: #d4d0c8 1px solid;
+	WIDTH: 110px;
+}
+.lineT
+{
+	border-top: #d4d0c8 1px solid;
+}
+.lineB
+{
+	border-bottom: #666666 1px solid;
+}
+.lineR
+{
+	BORDER-RIGHT: #666666 1px solid;
+}
+.lineTB
+{
+	border-top: #d4d0c8 1px solid;
+	border-bottom: #d4d0c8 1px solid;
+}
+.lineL
+{
+	border-left: #666666 1px solid;
+}
+.tableLineAll
+{
+	border:#d4d0c8 1px solid;
+}
+
+
+.dealLableNoWidth
+{
+	background-color: #d8e8f0;
+}
+.dealLable
+{
+	width:114px;
+	background-color: #d8e8f0;
+}
+.dealLableNoColor
+{
+	width:114px;
+}
+.dealText
+{
+	width:145px;
+	text-align:left;
+	background-color: #e9f2f7;
+}
+.dealTextNoWidth
+{
+	text-align:left;
+	background-color: #e9f2f7;
+}
+
+
+
+.dealLable100
+{
+	width:110px;
+	background-color: #d8e8f0;
+}
+.dealText126
+{
+	width:112px;
+	background-color: #e9f2f7;
+}

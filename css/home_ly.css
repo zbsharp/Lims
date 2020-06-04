@@ -1,0 +1,245 @@
+BODY {
+	MARGIN: 0px
+}
+.border {
+	BORDER-RIGHT: #eaeaea 1px solid; BORDER-TOP: #eaeaea 1px solid; BORDER-LEFT: #eaeaea 1px solid; BORDER-BOTTOM: #eaeaea 1px solid
+}
+A.index:link {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.red:link {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.red:visited {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.red:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.index:visited {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.index:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.newsttl:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.mainttl:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.ceo {
+	FONT-SIZE: 12px; WORD-SPACING: 2em; COLOR: #333333; LINE-HEIGHT: 18px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.mainttl:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.mainttl:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.newsttl:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.newsttl:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.oringe {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff0000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.ttl2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #2c5b69; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.topline {
+	BORDER-TOP: #999999 1px solid; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: #999999; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #999999; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #999999
+}
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, 宋体
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana
+}
+TH {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif, 宋体
+}
+A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.service {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.botline {
+	BORDER-BOTTOM: #c1c3c7 1px solid
+}
+A.leftsub:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.leftsub:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.producttl {
+	FONT-SIZE: 12px; COLOR: #526178; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.mainproductttl {
+	FONT-SIZE: 13px; COLOR: #08006f; FONT-FAMILY: Verdana
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.peizhi {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.maindetail {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 18px; FONT-FAMILY: "宋体"
+}
+A:hover {
+	COLOR: #003399
+}
+A.leftsub:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A {
+	COLOR: #272727
+}
+.dot_bottom {
+	BORDER-TOP-STYLE: none; BORDER-BOTTOM: #cccccc 1px dashed; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #ffffff
+}
+.uper {
+	PADDING-BOTTOM: 5px
+}
+.search {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.bg {
+	BACKGROUND-IMAGE: url(/images/sony_ele_china/bg6.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #f3f7e8
+}
+.dot_y {
+	BACKGROUND-IMAGE: url(/images/sony_ele_china/dot_y.gif); BACKGROUND-REPEAT: repeat-y
+}
+.dot_x {
+	BACKGROUND-IMAGE: url(/images/sony_ele_china/dot_x.gif); BACKGROUND-REPEAT: repeat-x
+}
+.product_title {
+	PADDING-LEFT: 10px; FONT-SIZE: 14px; COLOR: #0099cc
+}
+.leftmenu {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000046; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.leftmenu:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #02063e; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.content {
+	FONT-SIZE: 12px; COLOR: #141414; LINE-HEIGHT: 18px; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.leftmenu:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #02063e; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+A.leftmenu:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #02063e; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.product_content {
+	PADDING-LEFT: 10px; COLOR: #999999; PADDING-TOP: 15px
+}
+.news {
+	PADDING-LEFT: 10px; PADDING-TOP: 23px
+}
+.style2 {
+	FONT-SIZE: 10px; COLOR: #0099cc
+}
+.style3 {
+	COLOR: #999999
+}
+.style4 {
+	COLOR: #009ace
+}
+.style7 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000
+}
+.club {
+	PADDING-LEFT: 15px
+}
+#titles {
+	Z-INDEX: 50; WIDTH: 100%; POSITION: absolute; TOP: 67px; TEXT-ALIGN: center
+}
+#titles DIV.channel_title {
+	RIGHT: 295px; POSITION: relative; TOP: 0px
+}
+#main {
+	WIDTH: 100%; POSITION: absolute; TOP: 67px; TEXT-ALIGN: center
+}
+#mainincluder {
+	BACKGROUND-IMAGE: url(/images/sony_ele_china/main_headbg.gif); WIDTH: 770px; BACKGROUND-REPEAT: repeat-x; POSITION: relative; BACKGROUND-COLOR: #ffffff
+}
+.inner_bg2 {
+	BACKGROUND-IMAGE: url(/images/sony_ele_china/inner_bg2.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #f3f7e8
+}
+#mainincluder DIV.kv {
+	LEFT: -3px; MARGIN: 12px 0px 10px; WIDTH: 575px; POSITION: relative; TEXT-ALIGN: left
+}
+#content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; RIGHT: 15px; FLOAT: right; PADDING-BOTTOM: 10px; WIDTH: 575px; PADDING-TOP: 0px; POSITION: relative; TEXT-ALIGN: left
+}
+#leftnav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 110px 0px 0px 7px; WIDTH: 154px; PADDING-TOP: 0px; POSITION: relative; TEXT-ALIGN: left
+}
+#foot {
+	MARGIN: 10px 0px; WIDTH: 770px; POSITION: relative; TEXT-ALIGN: center
+}
+.banner {
+	FLOAT: left
+}
+DIV#copyright {
+	DISPLAY: block; FLOAT: left
+}
+.clear {
+	CLEAR: both; BORDER-TOP: #ffffff 1px solid; MARGIN: 10px 0px
+}
+#globalnav-search {
+	FLOAT: right
+}
+.contextmenu {
+	BORDER-RIGHT: #ff8d20 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ff8d20 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 8pt; Z-INDEX: 200; PADDING-BOTTOM: 3px; MARGIN: 0px; BORDER-LEFT: #ff8d20 1px solid; WIDTH: 140px; CURSOR: pointer; PADDING-TOP: 3px; BORDER-BOTTOM: #ff8d20 1px solid; FONT-FAMILY: ms sans serif,helvetica,arial,sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.menuItem {
+	MARGIN-TOP: 0px; PADDING-LEFT: 7px; FONT-SIZE: 8pt; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 2px; WIDTH: 100%; CURSOR: pointer; COLOR: black; PADDING-TOP: 2px; FONT-FAMILY: ms sans serif,helvetica,arial,sans-serif
+}
+.menuItemDefault {
+	PADDING-LEFT: 7px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; WIDTH: 100%; CURSOR: pointer; COLOR: black; PADDING-TOP: 2px; FONT-FAMILY: ms sans serif,helvetica,arial,sans-serif
+}
+.highlightItem {
+	PADDING-LEFT: 7px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; WIDTH: 100%; CURSOR: pointer; COLOR: white; PADDING-TOP: 2px; FONT-FAMILY: ms sans serif,helvetica,arial, sans-serif; BACKGROUND-COLOR: #ff8d20
+}
+.f1 {
+	border: 1px solid #CCCCCC;
+	background-color: #E7E7E7;
+}
+.f2 {
+	border: 1px solid #CCCCCC;
+}
+.t {
+	font-size: 12px;
+	line-height: 18px;
+}
+.f3 {
+	background-color: #CBE3FE;
+	border: 1px solid #66CCFF;
+}
+.line {
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #003399;
+	vertical-align: middle;
+	border-right-style: none;
+	border-right-color: #003399;
+
+}
+.font {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0000;
+}

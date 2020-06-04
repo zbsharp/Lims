@@ -1,0 +1,45 @@
+﻿body,td      { font-family: 宋体; font-size: 13px; color: #333 }
+
+a:link       { color: #000000; text-decoration: none }
+a:visited    { color: #000000; text-decoration: none }
+a:hover      { color: #000000; text-decoration: underline}
+
+a:link.w       { color: #FFFFFF; text-decoration: none }
+a:visited.w    { color: #FFFFFF; text-decoration: none }
+a:hover.w      { color: #FFFFFF; text-decoration: underline}
+
+a:link.b       { color: #0000FF; text-decoration: none }
+a:visited.b    { color: #0000FF; text-decoration: none }
+a:hover.b      { color: #0000FF; text-decoration: underline}
+
+a:link.r       { color: #FF0000; text-decoration: none }
+a:visited.r    { color: #FF0000; text-decoration: none }
+a:hover.r      { color: #FF0000; text-decoration: underline}
+
+a:link.F93       { color: #FF9933; text-decoration: none }
+a:visited.F93    { color: #FF9933; text-decoration: none }
+a:hover.F93      { color: #FF9933; text-decoration: underline}
+
+a:link.CCF       { color: #CCCCFF; text-decoration: none }
+a:visited.CCF    { color: #CCCCFF; text-decoration: none }
+a:hover.CCF      { color: #CCCCFF; text-decoration: underline}
+
+a:link.b80       { color: #000080; text-decoration: none }
+a:visited.b80    { color: #000080; text-decoration: none }
+a:hover.b80      { color: #000080; text-decoration: underline}
+
+a:link.boss       { color: #CCCCCC; text-decoration: none }
+a:visited.boss    { color: #CCCCCC; text-decoration: none }
+a:hover.boss      { color: #CCCCCC; text-decoration: underline}
+
+a:link.CC0       { color: #CC0000; text-decoration: none }
+a:visited.CC0    { color: #CC0000; text-decoration: none }
+a:hover.CC0      { color: #CC0000; text-decoration: underline}
+
+a:link.a1       { color: #999999; text-decoration: none }
+a:visited.a1    { color: #999999; text-decoration: none }
+a:hover.a1      { color: #999999; text-decoration: underline}
+
+label    { float:left; width:100px; display:block; cursor: pointer }
+
+.F5 { background-color: #E6FFFF }

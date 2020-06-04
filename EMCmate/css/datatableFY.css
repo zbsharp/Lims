@@ -1,0 +1,49 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.plist {
+    width: 100%;
+    margin: 0 auto;
+    border: 30px solid lightblue;
+    border-collapse: collapse;
+}
+
+    .plist caption {
+        font: 700 20px/28px "微软雅黑";
+        padding: 10px;
+    }
+
+    .plist th, .plist td {
+        width: 120px;
+        line-height: 20px;
+        font-size: 14px;
+        font-family: "微软雅黑";
+        border: 1px solid #aaa;
+        text-align: center;
+        padding: 4px;
+    }
+
+    .plist td {
+        padding: 0;
+    }
+
+.headline {
+    background-color: lightcyan;
+}
+
+.plist td input {
+    height: 24px;
+    text-align: left;
+    border: none;
+    outline-style: none;
+    font-size: 14px;
+    border: 2px solid #fff;
+}
+
+
+.datarow td {
+    width: 60px;
+    height: 30px;
+}

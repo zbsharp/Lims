@@ -1,0 +1,305 @@
+﻿body {	margin-left: 0px;	margin-top: 0px;	margin-right: 0px;	margin-bottom: 0px;	font-size:12px;}
+.mainDIV{ width:100%;}
+.topDIV{	background-color: #aec5f7;	font-size: 12px;	line-height: 20px;	color: #ffffff;	text-decoration: none;}
+.contentDIC{line-height:200%;background-color: #0499f3; font-weight:bold;color:White;border-top: #aec5f7 1px solid;}
+.contentDIC a {text-decoration: none; FONT-WEIGHT: normal; COLOR:White;}
+.contentDIC a:link {COLOR:White;}
+.contentDIC a:visited {COLOR:White;}
+.contentDIC a:hover {COLOR:White; text-decoration:none;}
+
+.RunDIV{overflow:auto;overflow-x:hidden; height:447px;}
+.RunDIV ul { list-style:none;margin:0 0 0 10px;}
+.RunDIV ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.RunDIV ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.RunDIV ul li a:link {COLOR:Blue;}
+.RunDIV ul li a:visited {COLOR:Blue;}
+.RunDIV ul li a:hover {COLOR:Red; text-decoration:none;}
+.ibutton
+{
+	border:1px solid #666;
+	height:18px;
+	background-color:#efefef;
+	font:12px Arial;
+}
+
+.deskContentKG
+{
+	padding-left:10px;
+}
+.lblTitleTD
+{
+	line-height:200%;
+	background-color:#efefef;
+	text-align:left;
+	font-weight:bold;
+}
+
+
+.ToDoWorkText {COLOR:Blue; height:22px;}
+.ToDoWorkText a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.ToDoWorkText a:link {COLOR:Blue;}
+.ToDoWorkText a:visited {COLOR:Blue;}
+.ToDoWorkText a:hover {COLOR:Blue; text-decoration:none;}
+
+
+.divDBContent{overflow: auto; overflow-x: hidden; height: 447px; width:100%;}
+.divDBContent ul { list-style:none;margin:0 0 0 10px;}
+.divDBContent ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divDBContent ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divDBContent ul li a:link {COLOR:Blue;}
+.divDBContent ul li a:visited {COLOR:Blue;}
+.divDBContent ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.divFinanContent{overflow: auto; overflow-x: hidden; height: 447px; width:100%;}
+.divFinanContent ul { list-style:none;margin:0 0 0 10px;}
+.divFinanContent ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divFinanContent ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divFinanContent ul li a:link {COLOR:Blue;}
+.divFinanContent ul li a:visited {COLOR:Blue;}
+.divFinanContent ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.divFinanContents{overflow: auto; overflow-x: hidden; height: 136px; width:100%;}
+.divFinanContents ul { list-style:none;margin:0 0 0 10px;}
+.divFinanContents ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divFinanContents ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divFinanContents ul li a:link {COLOR:Blue;}
+.divFinanContents ul li a:visited {COLOR:Blue;}
+.divFinanContents ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.divFinanHelf{overflow: auto; overflow-x: hidden; height: 218px; width:100%;}
+.divFinanHelf ul { list-style:none;margin:0 0 0 10px;}
+.divFinanHelf ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divFinanHelf ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divFinanHelf ul li a:link {COLOR:Blue;}
+.divFinanHelf ul li a:visited {COLOR:Blue;}
+.divFinanHelf ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.managerDIV{overflow:scroll;overflow-x:hidden; height:255px;}
+.managerDIV ul { list-style:none;margin:0 0 0 10px;}
+.managerDIV ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.managerDIV ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.managerDIV ul li a:link {COLOR:Blue;}
+.managerDIV ul li a:visited {COLOR:Blue;}
+.managerDIV ul li a:hover {COLOR:Red; text-decoration:none;}
+
+.menubar_title {FONT-FAMILY: "Verdana", "Arial", "细明体", "sans-serif"; font-size:14px; font-weight:bold;}
+
+.menubar_function_text {
+	border-top:3px solid #000000; font-size:9pt;
+	FONT-FAMILY: "Arial"; position:relative; 
+	color:#808080; border-left-width:1; 
+	border-right-width:1;
+	 border-bottom-width:1;
+	  padding-top:3;
+	padding-left:10px;}
+	
+	
+.button_bak {
+	BORDER-RIGHT: medium none; 
+	BORDER-TOP: medium none; 
+	BACKGROUND-IMAGE: url(images/button_On.gif); 
+	BORDER-LEFT: medium none; 
+	WIDTH: 60px; 
+	CURSOR: pointer; 
+	BORDER-BOTTOM: medium none; 
+	HEIGHT: 20px;
+	FONT-SIZE: 9pt; 
+	FONT-FAMILY: tahoma,宋体;
+}
+
+
+.tabTextboxOK {
+	border: 1px solid #FE9BA2;
+	width:140px;
+}
+
+
+.datagrid-style
+{
+	height:25px;
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+}
+.datagrid-styleNoRow
+{
+	height:25px;
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+.datagrid-styleBlue
+{
+	color:Blue;
+	height:25px;
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+}
+.datagrid-stylecentter
+{
+	text-align:center;
+	height:25px;
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+}
+.datagrid-headerstyle
+{
+	height:22px;
+	background-color: #0499f3;
+	color:White;
+}
+.datagrid-headercolor
+{
+	border-color:#c9cfe2;
+	border-collapse:collapse;
+	color:White;
+}
+.datagrid-alternatingitemstyle
+{
+	background-color: #F5F7FD;
+}
+.datagrid-footerstyle
+{
+	background-color: #D8E0F1;
+}
+.datagrid-pagerstyle
+{
+	background-color: #D8E0F1;
+}
+
+
+.inputTable
+{
+	border-collapse:collapse;
+}
+.inputTable td
+{
+	height:30px;
+}
+
+
+.inputTableFlow
+{
+	border-collapse:collapse;
+}
+.inputTableFlow td
+{
+	height:25px;
+}
+
+
+.table_body {	
+FONT-SIZE: 9pt;
+BACKGROUND-COLOR: #CADEE8;
+height:30px;
+PADDING-LEFT: 5px;
+PADDING-RIGHT:5px;
+width:25%;
+font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; 
+}
+
+.bluelink 
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Blue;
+}
+.bluelink:link {
+	COLOR:Blue;
+}
+.bluelink:visited {
+	COLOR:Blue;
+}
+.bluelink:hover {
+	COLOR:Blue;
+	 text-decoration:none;
+}
+
+
+.pageTextBox {font-family: 新宋体, 新宋体-18030, 宋体-18030, 宋体; background-color: white; font-size: 11pt; height: 13px; border: 1px solid #ddd;}
+.pagebutton
+{
+    padding-right: 4px;	padding-left: 4px; FONT-WEIGHT: normal;	FONT-SIZE: 12px; padding-bottom: 2px; MARGIN: 1px 0px 0px; DISPLAY: inline;	COLOR: #000000;	LINE-height: 15px; padding-top: 2px; height: 22px; border: 1px outset #ddd;
+}
+
+
+
+.linkRed 
+{
+	text-decoration: none;
+	FONT-WEIGHT: normal; COLOR:Red;
+}
+.linkRed:link {
+	COLOR:Red;
+}
+.linkRed:visited {
+	COLOR:Red;
+}
+.linkRed:hover {
+	COLOR:Red;
+	 text-decoration:none;
+}
+
+
+.EnabledTextbox {
+	border: 1px solid #acbac4;
+	color:#aca899;
+	width:140px;
+}
+
+
+
+.InfoTextboxAll {
+	border: 1px solid #FE9BA2;
+	width:120px;
+}
+.dealText126
+{
+	width:112px;
+	background-color: #d8e8f0;
+}
+.dealLableNoColor
+{
+	width:114px;
+}
+.dealLable100
+{
+	width:110px;
+	background-color: #d8e8f0;
+}
+
+
+.dealLableNoWidth
+{
+	background-color: #cadee8;
+}
+.dealLable
+{
+	width:85px;
+	background-color: #cadee8;
+}
+.dealText
+{
+	width:136px;
+	background-color: #cadee8;
+}
+.dealTextNoWidth
+{
+	background-color: #cadee8;
+}
+	
+	
+.lblSmailTitleLeft
+{
+	height: 20px;
+	text-align:left;
+	width:114px;
+	font-weight:bold;
+	background-color:#ffffff;
+}
+
+
+

@@ -1,0 +1,343 @@
+﻿body{
+	
+	background-color:#F8F8F8;
+	
+	font-size:12px;
+	
+
+}
+
+
+body,a,input,select,textarea,code,span,label{
+	 font-family:"Î¢ÈíÑÅºÚ","Microsoft Yahei",Arial,Helvetica,sans-serif,"ËÎÌå";
+}
+
+
+a{
+	 text-decoration:none;
+	 color:#000;
+}
+
+
+a:hover{
+	 color:#ff6602;
+}
+
+
+	.loginbox{
+	
+	width:500px;
+	
+	height:240px;
+	
+	padding:80px 100px 0;
+	
+	margin:170px auto;
+	
+	background:#e8ebed;
+	
+	border:3px solid #fff;
+	
+
+}
+
+
+	
+	#ie6-warning{
+	
+       background:rgb(255,255,225) url("Images/warning.gif") no-repeat scroll 3px center;
+	
+       position:absolute;
+	
+       top:0;
+	
+       left:0;
+	
+       font-size:12px;
+	
+       color:#333;
+	
+       width:97%;
+	
+       padding: 2px 15px 2px 23px;
+	
+       text-align:left;
+	
+       z-index:10000;
+	
+
+}
+
+
+#ie6-warning a {
+	
+       text-decoration:none;
+	
+
+}
+
+
+form {
+	
+    display: inline;
+	
+
+}
+
+
+* {
+	
+	margin: 0;
+	
+	padding: 0;
+	
+	
+}
+
+
+	
+	
+.login-form {
+	
+	padding: 27px 57px 35px;
+	
+	text-align: left;
+	
+
+}
+
+
+
+.login-form h2 {
+	
+	font-size: 1.7em;
+	
+	font-weight: 100;
+	
+	line-height: 1.4em;
+	
+	margin-bottom: 0.5em;
+	
+
+}
+
+
+.login-form .input-left {
+	
+    float: left;
+	
+
+}
+
+
+
+.login-form label {
+	
+
+
+}
+
+
+label {
+	
+    color: #333333;
+	
+
+}
+
+
+
+.login-form .input-box input.input-text {
+	
+    width: 224px;
+	
+	font-size:12px;
+	
+	
+
+}
+
+
+input.input-text, textarea {
+	
+    padding: 2px;
+	
+
+}
+
+
+input.input-text, textarea, select {
+	
+    background: none repeat scroll 0 0 #FFFFFF;
+	
+    border-color: #AAAAAA #C8C8C8 #C8C8C8 #AAAAAA;
+	
+    border-style: solid;
+	
+    border-width: 1px;
+	
+    font: 12px arial,helvetica,sans-serif;
+	
+
+}
+
+
+input, select {
+	
+    vertical-align: middle;
+	
+
+}
+
+
+.login-form .input-right {
+	
+    float: right;
+	
+
+}
+
+
+.clear {
+	
+    clear: both;
+	
+    content: ".";
+	
+    display: block;
+	
+    font-size: 0;
+	
+    height: 0;
+	
+    line-height: 0;
+	
+    overflow: hidden;
+	
+
+}
+
+
+
+.f-left, .left {
+	
+    float: left;
+	
+
+}
+
+
+.clear{
+	
+    clear: both;
+	
+    content: ".";
+	
+    display: block;
+	
+    font-size: 0;
+	
+    height: 0;
+	
+    line-height: 0;
+	
+    overflow: hidden;
+	
+
+}
+
+
+button, .form-button {
+	
+    background: url("images/btn_bg.gif") repeat-x scroll 0 100% #FFAC47;
+	
+    border-color: #ED6502 #A04300 #A04300 #ED6502;
+	
+    border-style: solid;
+	
+    border-width: 1px;
+	
+    color: #FFFFFF;
+	
+    cursor: pointer;
+	
+    font: bold 12px arial,helvetica,sans-serif;
+	
+    padding: 1px 7px 2px;
+	
+    text-align: center !important;
+	
+    white-space: nowrap;
+	
+
+}
+
+
+.login-container .legal {
+	
+	background: url("images/login_box_legal_bg.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+	font-size: 0.95em;
+	
+	margin: 0;
+	
+	padding: 8px 8px 5px;
+	
+	text-align: center;
+	
+
+}
+
+
+
+.login-box .bottom {
+	
+    height: 5px;
+	
+    overflow: hidden;
+	
+    width: 581px;
+	
+
+}
+
+
+.login-box {
+	
+background: url("images/login_box_bg.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	
+
+}
+
+
+.login-container {
+	
+	margin: 170px auto;
+	
+	width: 581px;
+	
+	border: 1px solid #cccccc;
+	
+	background-attachment: scroll;
+	
+	background-image: url(images/login_logo.gif);
+	
+	background-repeat: no-repeat;
+	
+	background-position: 0 0;
+	
+
+
+}
+
+
+.login-form .form-buttons {
+	
+    clear: both;
+	
+    margin: 12px 0 0;
+	
+    text-align: right;
+	
+
+}

@@ -1,0 +1,69 @@
+﻿body {	margin-left: 0px;	margin-top: 0px;	margin-right: 0px;	margin-bottom: 0px;	font-size:12px;}
+.mainDIV{ width:100%;}
+.topDIV{	background-color: #aec5f7;	font-size: 12px;	line-height: 20px;	color: #ffffff;	text-decoration: none;}
+.contentDIC{line-height:200%;background-color: #0499f3; font-weight:bold;color:White;border-top: #aec5f7 1px solid;}
+.contentDIC a {text-decoration: none; FONT-WEIGHT: normal; COLOR:White;}
+.contentDIC a:link {COLOR:White;}
+.contentDIC a:visited {COLOR:White;}
+.contentDIC a:hover {COLOR:White; text-decoration:none;}
+
+.RunDIV{overflow:scroll;overflow-x:hidden; height:350px;}
+.RunDIV ul { list-style:none;margin:0 0 0 10px;}
+.RunDIV ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.RunDIV ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.RunDIV ul li a:link {COLOR:Blue;}
+.RunDIV ul li a:visited {COLOR:Blue;}
+.RunDIV ul li a:hover {COLOR:Red; text-decoration:none;}
+.ibutton
+{
+	border:1px solid #666;
+	height:18px;
+	background-color:#efefef;
+	font:12px Arial;
+}
+
+.deskContentKG
+{
+	padding-left:10px;
+}
+.lblTitleTD
+{
+	line-height:200%;
+	background-color:#efefef;
+	text-align:left;
+	font-weight:bold;
+}
+
+
+.ToDoWorkText {COLOR:Blue; height:22px;}
+.ToDoWorkText a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.ToDoWorkText a:link {COLOR:Blue;}
+.ToDoWorkText a:visited {COLOR:Blue;}
+.ToDoWorkText a:hover {COLOR:Blue; text-decoration:none;}
+
+
+.divDBContent{overflow: scroll; overflow-x: hidden; height: 350px; width:100%;}
+.divDBContent ul { list-style:none;margin:0 0 0 10px;}
+.divDBContent ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divDBContent ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divDBContent ul li a:link {COLOR:Blue;}
+.divDBContent ul li a:visited {COLOR:Blue;}
+.divDBContent ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.divFinanContent{overflow: scroll; overflow-x: hidden; height: 350px; width:100%;}
+.divFinanContent ul { list-style:none;margin:0 0 0 10px;}
+.divFinanContent ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.divFinanContent ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.divFinanContent ul li a:link {COLOR:Blue;}
+.divFinanContent ul li a:visited {COLOR:Blue;}
+.divFinanContent ul li a:hover {COLOR:Red; text-decoration:none;}
+
+
+.managerDIV{overflow:scroll;overflow-x:hidden; height:255px;}
+.managerDIV ul { list-style:none;margin:0 0 0 10px;}
+.managerDIV ul li {COLOR:Blue; margin:5px 0 5px 0;}
+.managerDIV ul li a {text-decoration: none; FONT-WEIGHT: normal; COLOR:Blue;}
+.managerDIV ul li a:link {COLOR:Blue;}
+.managerDIV ul li a:visited {COLOR:Blue;}
+.managerDIV ul li a:hover {COLOR:Red; text-decoration:none;}

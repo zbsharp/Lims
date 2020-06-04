@@ -1,0 +1,26 @@
+﻿body
+{
+    font-size:14px;
+}
+.pages
+{
+    height: 30px;
+    text-align: right;
+    width: 1000px;
+}
+
+.page a, .pages a, .cpb
+{
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    color: #333;
+    font-size: 12px;
+    margin: 0 5px;
+    padding: 3px 8px;
+}
+
+.page a.current, .cpb
+{
+    background-color: #b0b0b0;
+    color: #fff;
+}

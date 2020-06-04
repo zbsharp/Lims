@@ -1,0 +1,555 @@
+DIV.article_line {
+	BORDER-RIGHT: #bababa 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #bababa 0px solid; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/articletitle_bg.gif) no-repeat right 50%; PADDING-BOTTOM: 2px; MARGIN: 0px 5px 5px 0px; BORDER-LEFT: #bababa 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #bababa 1px solid
+}
+#article_title_manu {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.title_arowright {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/tit_arrow_right.gif) no-repeat right bottom; PADDING-BOTTOM: 20px; MARGIN: 0px 0px 5px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+DIV.title_infolist {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 3px; HEIGHT: 25px; BACKGROUND-COLOR: #e1edfa
+}
+#article_title_infolist {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; MARGIN: 6px 0px 3px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#article_title_text {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 3px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#article_title_text:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+#article_title_text:visited {
+	COLOR: red; TEXT-DECORATION: none
+}
+#article_title_text:unknown {
+	COLOR: red; TEXT-DECORATION: none
+}
+DIV.bigtitle_line {
+	BORDER-RIGHT: #c0deee 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #c0deee 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 5px; BORDER-LEFT: #c0deee 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #c0deee 1px solid
+}
+DIV.title_arowleft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/tit_arrow_left.gif) no-repeat left bottom; PADDING-BOTTOM: 20px; MARGIN: 0px 0px 5px; PADDING-TOP: 0px
+}
+#article_title_img {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV.title_arowdown {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/tit_arrow_down.gif) no-repeat right 50%; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; PADDING-TOP: 0px
+}
+DIV.title_bluebg {
+	BACKGROUND: url(/images/sony_ele_china/tit_blue_bg.gif) #1f94ba repeat-y right 50%; MARGIN: 0px; HEIGHT: 25px; text-valign: middle
+}
+IMG.title_bluearrow {
+	DISPLAY: block; FLOAT: left; MARGIN: 8px 3px 0px 5px
+}
+#article_title_textwhite {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 6px 0px 3px; COLOR: #ffffff; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#blocktitle_block {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+#blocktitle_text {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 16px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; COLOR: #3d3d3d; PADDING-TOP: 0px; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+#blocktitle_bullet {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 5px 0px 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+#block_title_text:hover {
+	COLOR: #3d3d3d; TEXT-DECORATION: underline
+}
+#block_title_text:visited {
+	TEXT-DECORATION: none
+}
+#block_title_text:unknown {
+	TEXT-DECORATION: none
+}
+#block_title_manu {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#paragraph_break {
+	DISPLAY: block; HEIGHT: 30px
+}
+#gotop {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+#breakline {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/dashline_h.gif) repeat-x; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; WIDTH: 100%; PADDING-TOP: 1px; HEIGHT: 1px
+}
+#globalnav-submenumain {
+	Z-INDEX: 1; MARGIN: 3px 0px 0px 168px; POSITION: relative
+}
+#globalnav-submenumain SPAN {
+	MARGIN: 0px 1px 0px 0px
+}
+#globalnav-submenumain SPAN A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#globalnav-submenumain SPAN A:hover {
+	BACKGROUND: url(/images/sony_ele_china/mainnav_bg.gif)
+}
+#globalnav-submenumain SPAN.active {
+	BACKGROUND: url(/images/sony_ele_china/mainnav_bg.gif)
+}
+DIV.globalnav-submenu {
+	Z-INDEX: 100; LEFT: 122px; WIDTH: 100px; COLOR: #fff; LIST-STYLE-TYPE: none; POSITION: relative; TOP: -18px; TEXT-ALIGN: left
+}
+DIV.globalnav-submenu SPAN {
+	MARGIN: 0px 1px 0px 0px
+}
+DIV.globalnav-submenu SPAN A {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+DIV.globalnav-submenu SPAN A:hover {
+	BACKGROUND-COLOR: #0083c7
+}
+DIV.globalnav-submenu SPAN.active {
+	BACKGROUND-COLOR: #0083c7
+}
+#colum_frame {
+	BORDER-RIGHT: #949494 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #949494 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #949494 1px solid; WIDTH: 100%; PADDING-TOP: 10px; BORDER-BOTTOM: #949494 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+#colum_rc_frame_content {
+	BORDER-RIGHT: #949494 1px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: #949494 1px solid; WIDTH: 100%; PADDING-TOP: 10px
+}
+#colum_rc_frame {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+#colum_normal {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.colum_one {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.colum_center_line {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1px; BACKGROUND: url(/images/sony_ele_china/dashline_v.gif) repeat-y left 50%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.colum_center {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.colum_right_line {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1px; BACKGROUND: url(/images/sony_ele_china/dashline_v.gif) repeat-y left 50%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.colum_right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.colum_left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#design_ann {
+	PADDING-RIGHT: 10px; BACKGROUND-POSITION: 10px 10px; PADDING-LEFT: 30px; FONT-SIZE: 11px; BACKGROUND-IMAGE: url(/images/sony_ele_china/design_ann.gif); PADDING-BOTTOM: 10px; MARGIN: 10px 0px; COLOR: #000000; PADDING-TOP: 10px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: arial; BACKGROUND-COLOR: #eeeeee
+}
+.form_narrow_context {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 8px 0px 3px; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; font-color: #000000
+}
+.form_narrow_form {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; font-color: #000000
+}
+.form_wide {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.form_wide_context {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px 15px 0px 0px; PADDING-TOP: 0px; FONT-FAMILY: arial; font-color: #000000
+}
+.form_wide_form {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.form_notitle {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 15px; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; font-color: #000000
+}
+.button_image {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px 15px 10px; PADDING-TOP: 0px
+}
+.listbox {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; font-color: #000000
+}
+.file_selection {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; font-color: #000000
+}
+.ftext {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; font-color: #000000
+}
+.text_input {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial; HEIGHT: 17px; TEXT-ALIGN: left; font-color: #000000
+}
+.button_go {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px
+}
+.radio_button_item {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 15px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left
+}
+.radio_button_text {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 0px 15px 0px 5px; WIDTH: 40px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left
+}
+.textarea {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; font-color: #000000
+}
+.button_normal {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 10px 20px 15px 0px; PADDING-TOP: 0px; FONT-FAMILY: arial
+}
+.checkbox_item {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 15px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left
+}
+.checkbox_text {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 0px 15px 0px 5px; COLOR: #000000; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left
+}
+.combobox {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; font-color: #000000
+}
+#icon_oneline_image {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+.icon_oneline_text {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 10px 20px 5px 5px; COLOR: #00759b; PADDING-TOP: 0px; FONT-FAMILY: tahoma; TEXT-DECORATION: none
+}
+.icon_oneline_text:visited {
+	FONT-SIZE: 11px; COLOR: #00759b; FONT-FAMILY: tahoma; TEXT-DECORATION: none
+}
+.icon_oneline_text:unknown {
+	FONT-SIZE: 11px; COLOR: #00759b; FONT-FAMILY: tahoma; TEXT-DECORATION: none
+}
+.icon_oneline_text:hover {
+	FONT-SIZE: 11px; COLOR: #00759b; FONT-FAMILY: tahoma; TEXT-DECORATION: none
+}
+.icon_image {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#illustrator {
+	DISPLAY: block
+}
+#illustrator_text {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#illustrator_fig {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 10px; PADDING-BOTTOM: 10px; MARGIN: 10px 0px; WIDTH: 100%; COLOR: #adadad; PADDING-TOP: 10px; FONT-STYLE: italic; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+#illustrator_fig:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+.info_detail_panel {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 2px 0px 0px; WIDTH: 100%; COLOR: #ffffff; PADDING-TOP: 3px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #1660ad
+}
+.info_detail_bullet {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 10px; PADDING-BOTTOM: 1px; MARGIN: 0px 10px 0px 0px; WIDTH: 12px; COLOR: #000000; PADDING-TOP: 1px; FONT-FAMILY: Arial; HEIGHT: 12px; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+TABLE.info_detail {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px; WIDTH: 100%; COLOR: #ffffff; PADDING-TOP: 1px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #1660ad; BORDER-RIGHT-WIDTH: 0px
+}
+TD.info_detail_context {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 2px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #5bb3ea; BORDER-RIGHT-WIDTH: 0px
+}
+TD.info_detail_content {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #d0e3f3; BORDER-RIGHT-WIDTH: 0px
+}
+TD.info_detail_desc {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px; COLOR: #000000; PADDING-TOP: 2px; FONT-FAMILY: Arial; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 0px
+}
+TD.titleblank {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; WIDTH: 30px; PADDING-TOP: 2px; BORDER-BOTTOM: #2076c4 3px solid
+}
+TD.title {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px; BORDER-BOTTOM: #2076c4 3px solid; FONT-FAMILY: Arial
+}
+TD.data0 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; PADDING-TOP: 1px; BORDER-BOTTOM: #2076c4 1px solid; FONT-FAMILY: Arial; BACKGROUND-COLOR: #dafefb
+}
+TD.data1 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; PADDING-TOP: 1px; BORDER-BOTTOM: #2076c4 1px solid; FONT-FAMILY: Arial
+}
+TR.data0 {
+	BACKGROUND-COLOR: #dafefb
+}
+TR.data1 {
+	BACKGROUND-COLOR: #ffffff
+}
+#globalnav-submenu {
+	Z-INDEX: 1; POSITION: relative
+}
+#globalnav-submenu SPAN {
+	MARGIN: 0px 1px 0px 0px
+}
+#globalnav-submenu SPAN A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#globalnav-submenu SPAN A:hover {
+	BACKGROUND: url(/images/sony_ele_china/mainnav_bg.gif)
+}
+#globalnav-submenu SPAN.active {
+	BACKGROUND: url(/images/sony_ele_china/mainnav_bg.gif)
+}
+.td_arrow {
+	PADDING-RIGHT: 17px; DISPLAY: block; PADDING-LEFT: 7px; BACKGROUND: url(/images/sony_ele_china/td_bgarrow.gif) no-repeat right 50%; PADDING-BOTTOM: 4px; MARGIN: 1px -7px -1px; COLOR: #000000; PADDING-TOP: 4px; BORDER-BOTTOM: #a9d0ea 1px solid; TEXT-ALIGN: right; TEXT-DECORATION: none
+}
+.td_arrow:unknown {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.td_arrow:hover {
+	COLOR: #2e6c92; TEXT-DECORATION: underline
+}
+.td_arrow:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.table_link {
+	PADDING-RIGHT: 7px; DISPLAY: block; PADDING-LEFT: 7px; PADDING-BOTTOM: 4px; MARGIN: 1px -7px -1px; COLOR: #000000; PADDING-TOP: 4px; BORDER-BOTTOM: #a9d0ea 1px solid; TEXT-DECORATION: none
+}
+.table_link:unknown {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.table_link:hover {
+	COLOR: #2e6c92; TEXT-DECORATION: underline
+}
+.table_link:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.link_normal {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.link_normal:unknown {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.link_normal:hover {
+	COLOR: #ff8000; TEXT-DECORATION: underline
+}
+.link_normal:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+UL.list_image {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-IMAGE: url(/images/sony_ele_china/list_blue.gif); MARGIN: 0px 0px 10px 16px
+}
+LI.list {
+	MARGIN: 4px 0px
+}
+DIV#globalnav-menu {
+	LEFT: 64px; POSITION: relative; TOP: -18px; HEIGHT: 34px
+}
+DIV#globalnav-menu SPAN {
+	BORDER-RIGHT: #ebebeb 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#pageframeset_normal {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#pageframeset_normal_underline {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/dashline_h.gif) repeat-x 50% top; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 1px; TEXT-ALIGN: left
+}
+#pageframeset_underline {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; BACKGROUND: url(/images/sony_ele_china/dashline_h.gif) repeat-x 50% bottom; PADDING-BOTTOM: 12px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 12px; TEXT-ALIGN: left
+}
+#pageframeset_rc_frame_content {
+	BORDER-RIGHT: #c0eeff 1px solid; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #c0eeff 1px solid; WIDTH: 100%; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+#pageframeset_rc_frame {
+	MARGIN: 0px 10px 10px 0px; WIDTH: 100%
+}
+#pageframeset_frame {
+	BORDER-RIGHT: #c0deee 1px solid; PADDING-RIGHT: 12px; BORDER-TOP: #c0deee 1px solid; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; MARGIN: 0px; BORDER-LEFT: #c0deee 1px solid; WIDTH: 100%; PADDING-TOP: 12px; BORDER-BOTTOM: #c0deee 1px solid; BACKGROUND-COLOR: #f0f6fc; TEXT-ALIGN: left
+}
+#pageframeset_framenobg {
+	BORDER-RIGHT: #c0deee 1px solid; PADDING-RIGHT: 12px; BORDER-TOP: #c0deee 1px solid; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; MARGIN: 0px; BORDER-LEFT: #c0deee 1px solid; WIDTH: 100%; PADDING-TOP: 12px; BORDER-BOTTOM: #c0deee 1px solid; TEXT-ALIGN: left
+}
+#pageframeset_img {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#pageframeset_img_underline {
+	BORDER-RIGHT: #bababa 0px dashed; PADDING-RIGHT: 0px; BORDER-TOP: #bababa 0px dashed; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #bababa 0px dashed; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: #bababa 1px dashed; TEXT-ALIGN: left
+}
+#pageblock_right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+#pageblock_right_underline {
+	BORDER-RIGHT: #bababa 0px dashed; PADDING-RIGHT: 0px; BORDER-TOP: #bababa 0px dashed; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; MARGIN: 0px; BORDER-LEFT: #bababa 0px dashed; WIDTH: 100%; PADDING-TOP: 12px; BORDER-BOTTOM: #bababa 1px dashed; TEXT-ALIGN: left
+}
+#pageframeset_title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#pagebanner_normal {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#2C_block_big {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 10px; HEIGHT: 156px; TEXT-ALIGN: left
+}
+#2C_block_title {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+#2C_block_big_underline {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/dashline_h.gif) repeat-x 50% bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 156px; TEXT-ALIGN: left
+}
+#3C_block_right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 10px; HEIGHT: 156px; TEXT-ALIGN: left
+}
+#3C_block_right_underline {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 15px; BACKGROUND: url(/images/sony_ele_china/dashline_v.gif) repeat-y right 50%; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 190px; PADDING-TOP: 10px; HEIGHT: 156px; TEXT-ALIGN: left
+}
+#3C_block_underline {
+	BORDER-RIGHT: #bababa 1px dashed; PADDING-RIGHT: 0px; BORDER-TOP: #bababa 1px dashed; PADDING-LEFT: 15px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #bababa 1px dashed; WIDTH: 190px; PADDING-TOP: 10px; BORDER-BOTTOM: #bababa 1px dashed; HEIGHT: 156px; TEXT-ALIGN: left
+}
+#4C_block_right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 140px; PADDING-TOP: 4px; HEIGHT: 130px; TEXT-ALIGN: left
+}
+#4C_block_right_underline {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 4px; BACKGROUND: url(/images/sony_ele_china/dashline_h.gif) repeat-x 50% bottom; PADDING-BOTTOM: 1px; MARGIN: 0px; PADDING-TOP: 4px; HEIGHT: 130px; TEXT-ALIGN: left
+}
+#pageframeset_bg_blue {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(/images/sony_ele_china/pageframe_bg1.gif) repeat-x; PADDING-BOTTOM: 10px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 10px; TEXT-ALIGN: left
+}
+#inner_normal {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 12px; WIDTH: 100%; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#pagebanner_right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 12px; TEXT-ALIGN: left
+}
+#pagebanner_left {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 12px; TEXT-ALIGN: left
+}
+#paragraph_title_img {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; COLOR: #006cb5; PADDING-TOP: 0px
+}
+#paragraph_title_text {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 3px; COLOR: #034f80; PADDING-TOP: 0px; FONT-FAMILY: arial; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+#paragraph_title_text:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+#paragraph_title_text:link {
+	COLOR: #034f80; TEXT-DECORATION: none
+}
+#paragraph_title_manu {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 0px
+}
+#row_bg3 {
+	BACKGROUND: url(/images/sony_ele_china/row_bg3.gif) repeat-x
+}
+#row_bg1 {
+	BACKGROUND: url(/images/sony_ele_china/row_bg1.gif) repeat-x; COLOR: #006077
+}
+#row_bg2 {
+	BACKGROUND: url(/images/sony_ele_china/row_bg2.gif) repeat-x
+}
+#row_bgabout {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/about_sonybg2.gif) repeat-x; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#row_upline {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/row_dashline.gif) repeat-x; PADDING-BOTTOM: 5px; PADDING-TOP: 10px
+}
+#row_bgbig {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/row_bigbg.gif) repeat-x; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+UL#leftnav_submenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: outside; BACKGROUND: #ffffff; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL#leftnav_submenu LI {
+	BORDER-TOP: #e5e9ea 1px solid; DISPLAY: block; PADDING-LEFT: 0px; COLOR: #000000
+}
+UL.leftnav_menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL.leftnav_menu LI {
+	BORDER-TOP: #83d5ed 1px solid; MARGIN: 0px 0px -3px
+}
+UL.leftnav_menu LI.first {
+	BORDER-TOP: 0px
+}
+UL.leftnav_menu LI.firstactive {
+	BORDER-TOP: 0px
+}
+UL.leftnav_menu LI.end {
+	PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/leftnav_end_bg.gif) no-repeat; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 24px
+}
+#leftnav DIV.title {
+	DISPLAY: block; BACKGROUND: #ffffff; TEXT-ALIGN: right
+}
+.dot {
+	PADDING-RIGHT: 2px; DISPLAY: none; PADDING-LEFT: 2px; FONT-SIZE: 9px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px; WIDTH: 20px; COLOR: #ffffff; PADDING-TOP: 1px; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #ff8d20; TEXT-DECORATION: none
+}
+.dot:unknown {
+	FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.dot:visited {
+	FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.dot:hover {
+	FONT-SIZE: 9px; COLOR: #ffffff; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.highlight {
+	FONT-SIZE: 11px; COLOR: #0198c3; FONT-FAMILY: tahoma; TEXT-DECORATION: none
+}
+.superscript {
+	FONT-SIZE: 9px; VERTICAL-ALIGN: top; FONT-FAMILY: arial
+}
+.descript {
+	FONT-SIZE: 11px; COLOR: #989898; FONT-STYLE: italic; FONT-FAMILY: arial
+}
+.special_text_normal {
+	FONT-SIZE: 11px; MARGIN: 0px 10px 0px 0px; COLOR: #00a0c6; FONT-FAMILY: arial
+}
+.special_text_date {
+	FONT-SIZE: 11px; COLOR: #0089c6; FONT-FAMILY: arial
+}
+#summary_noraml {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 16px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; COLOR: #adadad; PADDING-TOP: 0px; FONT-STYLE: italic; FONT-FAMILY: arial
+}
+#subtitle {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 16px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 0px; FONT-FAMILY: century gothic
+}
+#subtitle {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 16px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 0px; FONT-FAMILY: century gothic
+}
+TABLE.gen-table TD {
+	BORDER-RIGHT: #a9d0ea 1px solid; PADDING-RIGHT: 7px; BORDER-TOP: #a9d0ea 1px solid; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; BORDER-LEFT: #a9d0ea 1px solid; PADDING-TOP: 7px; BORDER-BOTTOM: #a9d0ea 1px solid
+}
+DIV#about_right {
+	BACKGROUND: url(/images/sony_ele_china/aboutsony_bg2_.gif) repeat-x
+}
+DIV.thumbnail_aboutright {
+	TEXT-ALIGN: right
+}
+DIV.thumbnail_aboutright_text {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 10px
+}
+#thumbnail_left {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#thumbnail_left_text {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+#thumbnail_right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#thumbnail_right_text {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+#clear {
+	CLEAR: both
+}
+DIV#about_left {
+	BACKGROUND-COLOR: #003466
+}
+DIV.thumbnail_aboutleft {
+	FLOAT: left
+}
+DIV.thumbnail_aboutleft_text {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; PADDING-TOP: 10px
+}
+#thumbnail_imgleft {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#thumbnail_imgleft_text {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px
+}
+.smarteditor {
+	FONT-SIZE: 10px; COLOR: #ff0000; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"
+}
+#homeblock_title {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 15px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 10px; TEXT-ALIGN: left
+}
+#homeblock_content {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 15px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+#homeblock_underline {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/dashline_h.gif) repeat-x 50% bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#homeblock_right {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; repeat-y: 
+}
+#homeblock_left {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 0px; BACKGROUND: url(/images/sony_ele_china/dashline_v.gif) repeat-y right 50%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
